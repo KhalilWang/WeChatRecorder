@@ -3,20 +3,63 @@ import sys
 import werobot
 import re
 import requests
+import os
 
-_appSecret = '051a944644b2b0f6160acda353a18bed'
-_appID = 'wx5b37d5578da05f94'
-
+basedir = os.path.dirname(os.path.abspath(__file__))
 reload(sys)
 sys.setdefaultencoding('utf-8')
 robot = werobot.WeRoBot(token = 'helloworld')
 
-def get_access_token():
-  params = {'grant_type':'client_credential', 'appid':str(_appID), 'secret':str(_appSecret)}
-  req = requests.get('https://api.weixin.qq.com/cgi-bin/token', params)
+
+#需要公众号具有微信认证!
+
+'''
+conf = werobot.config.Config()
+conf.from_pyfile('config.py')
+client = werobot.client.Client(conf)
+
+client.create_menu({
+                "button":[
+                    {
+                        "type":"click",
+                        "name":"我是学生",
+                        "key":"STUDENT_KEY"
+                    },
+                    {
+                        "type":"click",
+                        "name":"我是老师",
+                        "key":"TEACHER_KEY"
+                    },
+                    {
+                        "name":"我的信息",
+                        "sub_button":[
+                            {
+                                "type":"view",
+                                "name":"搜索",
+                                "url":"http://www.soso.com/"
+                            },
+                            {
+                                "type":"view",
+                                "name":"视频",
+                                "url":"http://v.qq.com/"
+                            },
+                            {
+                                "type":"click",
+                                "name":"赞一下我们",
+                                "key":"GOOD"
+                            }
+                        ]
+                    }
+                ]})
+
+'''
 
 
+#params = {'grant_type':'client_credential', 'appid':str(_appID), 'secret':str(_appSecret)}
+#req = requests.post('https://api.weixin.qq.com/cgi-bin/token', params)
+#print req.text
 
+  
 @robot.text
 def switch_text_msg(message, session):
   msg = message.content
@@ -24,10 +67,24 @@ def switch_text_msg(message, session):
   if msg == '我是学生':
     
     session['user'] = 'student'
-    session['islogined'] = 'none'
-    return '请输入学号!'
-  if re.compile('[0-9]{6}').match(msg) and session.get('user') == 'student':
-    return '你的学号是:' + msg + ', 欢迎!'
+    session['status'] = 'input_name'
+    return '请输入你的名字'
+  elif session['status'] == 'input_name':
+    session['name'] = msg
+    session['status'] = 'none'
+    return msg + '同学, 欢迎!'
+
+
+  elif msg == '我是老师':
+    session['user'] = 'teacher'
+    session['status'] = 'input_teacher_code'
+    return '请输入老师密码!'
+  elif session['status'] == 'input_teacher_code':
+    # sql judgement
+    session['status'] = 'none'
+    return '你的密码是:' + msg  
+  else:
+    return '学生请输入: 我是学生 \n老师请输入: 我是老师\n'
 
 @robot.subscribe
 def subscribe(message):
@@ -37,4 +94,3 @@ def subscribe(message):
 robot.config['HOST'] = '0.0.0.0'
 robot.config['PORT'] = 80
 robot.run()
-
