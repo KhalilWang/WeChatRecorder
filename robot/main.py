@@ -20,7 +20,7 @@ app.add_url_rule(
 
 @app.route('/')
 def index():
-    return 'helloWorld'
+    return flask.render_template('index.html')
 
 @app.route('/student')
 def student():
