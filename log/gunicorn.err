@@ -1,0 +1,205 @@
+[2017-04-11 13:07:09 +0000] [31703] [INFO] Starting gunicorn 19.6.0
+[2017-04-11 13:07:09 +0000] [31703] [INFO] Listening at: http://0.0.0.0:80 (31703)
+[2017-04-11 13:07:09 +0000] [31703] [INFO] Using worker: sync
+[2017-04-11 13:07:09 +0000] [31708] [INFO] Booting worker with pid: 31708
+[2017-04-11 13:07:09 +0000] [31713] [INFO] Booting worker with pid: 31713
+[2017-04-11 13:07:09 +0000] [31718] [INFO] Booting worker with pid: 31718
+[2017-04-11 13:07:09 +0000] [31719] [INFO] Booting worker with pid: 31719
+[2017-04-11 13:14:37 +0000] [31845] [INFO] Starting gunicorn 19.6.0
+[2017-04-11 13:14:37 +0000] [31845] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 13:14:37 +0000] [31845] [ERROR] Retrying in 1 second.
+[2017-04-11 13:14:38 +0000] [31845] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 13:14:38 +0000] [31845] [ERROR] Retrying in 1 second.
+[2017-04-11 13:14:39 +0000] [31845] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 13:14:39 +0000] [31845] [ERROR] Retrying in 1 second.
+[2017-04-11 13:14:40 +0000] [31845] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 13:14:40 +0000] [31845] [ERROR] Retrying in 1 second.
+[2017-04-11 13:14:41 +0000] [31845] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 13:14:41 +0000] [31845] [ERROR] Retrying in 1 second.
+[2017-04-11 13:14:42 +0000] [31845] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-04-11 13:14:43 +0000] [31850] [INFO] Starting gunicorn 19.6.0
+[2017-04-11 13:14:43 +0000] [31850] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 13:14:43 +0000] [31850] [ERROR] Retrying in 1 second.
+[2017-04-11 13:14:44 +0000] [31850] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 13:14:44 +0000] [31850] [ERROR] Retrying in 1 second.
+[2017-04-11 13:14:45 +0000] [31850] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 13:14:45 +0000] [31850] [ERROR] Retrying in 1 second.
+[2017-04-11 13:14:46 +0000] [31850] [INFO] Listening at: http://0.0.0.0:80 (31850)
+[2017-04-11 13:14:46 +0000] [31850] [INFO] Using worker: sync
+[2017-04-11 13:14:46 +0000] [31855] [INFO] Booting worker with pid: 31855
+[2017-04-11 13:14:46 +0000] [31860] [INFO] Booting worker with pid: 31860
+[2017-04-11 13:14:46 +0000] [31861] [INFO] Booting worker with pid: 31861
+[2017-04-11 13:14:46 +0000] [31868] [INFO] Booting worker with pid: 31868
+[2017-04-11 13:23:01 +0000] [31935] [INFO] Starting gunicorn 19.6.0
+[2017-04-11 13:23:01 +0000] [31935] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 13:23:01 +0000] [31935] [ERROR] Retrying in 1 second.
+[2017-04-11 13:23:02 +0000] [31935] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 13:23:02 +0000] [31935] [ERROR] Retrying in 1 second.
+[2017-04-11 13:23:03 +0000] [31935] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 13:23:03 +0000] [31935] [ERROR] Retrying in 1 second.
+[2017-04-11 13:23:04 +0000] [31935] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 13:23:04 +0000] [31935] [ERROR] Retrying in 1 second.
+[2017-04-11 13:23:05 +0000] [31935] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 13:23:05 +0000] [31935] [ERROR] Retrying in 1 second.
+[2017-04-11 13:23:06 +0000] [31935] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-04-11 13:23:07 +0000] [31941] [INFO] Starting gunicorn 19.6.0
+[2017-04-11 13:23:07 +0000] [31941] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 13:23:07 +0000] [31941] [ERROR] Retrying in 1 second.
+[2017-04-11 13:23:08 +0000] [31941] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 13:23:08 +0000] [31941] [ERROR] Retrying in 1 second.
+[2017-04-11 13:23:09 +0000] [31941] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 13:23:09 +0000] [31941] [ERROR] Retrying in 1 second.
+[2017-04-11 13:23:10 +0000] [31941] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 13:23:10 +0000] [31941] [ERROR] Retrying in 1 second.
+[2017-04-11 13:23:11 +0000] [31941] [INFO] Listening at: http://0.0.0.0:80 (31941)
+[2017-04-11 13:23:11 +0000] [31941] [INFO] Using worker: sync
+[2017-04-11 13:23:11 +0000] [31946] [INFO] Booting worker with pid: 31946
+[2017-04-11 13:23:11 +0000] [31947] [INFO] Booting worker with pid: 31947
+[2017-04-11 13:23:11 +0000] [31948] [INFO] Booting worker with pid: 31948
+[2017-04-11 13:23:11 +0000] [31955] [INFO] Booting worker with pid: 31955
+[2017-04-11 13:35:56 +0000] [32312] [INFO] Starting gunicorn 19.6.0
+[2017-04-11 13:35:56 +0000] [32312] [INFO] Listening at: http://0.0.0.0:80 (32312)
+[2017-04-11 13:35:56 +0000] [32312] [INFO] Using worker: sync
+[2017-04-11 13:35:56 +0000] [32317] [INFO] Booting worker with pid: 32317
+[2017-04-11 13:35:56 +0000] [32322] [INFO] Booting worker with pid: 32322
+[2017-04-11 13:35:56 +0000] [32323] [INFO] Booting worker with pid: 32323
+[2017-04-11 13:35:56 +0000] [32330] [INFO] Booting worker with pid: 32330
+[2017-04-11 13:36:06 +0000] [32338] [INFO] Starting gunicorn 19.6.0
+[2017-04-11 13:36:06 +0000] [32338] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 13:36:06 +0000] [32338] [ERROR] Retrying in 1 second.
+[2017-04-11 13:36:07 +0000] [32338] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 13:36:07 +0000] [32338] [ERROR] Retrying in 1 second.
+[2017-04-11 13:36:08 +0000] [32338] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 13:36:08 +0000] [32338] [ERROR] Retrying in 1 second.
+[2017-04-11 13:36:09 +0000] [32338] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 13:36:09 +0000] [32338] [ERROR] Retrying in 1 second.
+[2017-04-11 13:36:10 +0000] [32338] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 13:36:10 +0000] [32338] [ERROR] Retrying in 1 second.
+[2017-04-11 13:36:11 +0000] [32338] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-04-11 13:36:12 +0000] [32343] [INFO] Starting gunicorn 19.6.0
+[2017-04-11 13:36:12 +0000] [32343] [INFO] Listening at: http://0.0.0.0:80 (32343)
+[2017-04-11 13:36:12 +0000] [32343] [INFO] Using worker: sync
+[2017-04-11 13:36:12 +0000] [32348] [INFO] Booting worker with pid: 32348
+[2017-04-11 13:36:12 +0000] [32349] [INFO] Booting worker with pid: 32349
+[2017-04-11 13:36:12 +0000] [32350] [INFO] Booting worker with pid: 32350
+[2017-04-11 13:36:12 +0000] [32351] [INFO] Booting worker with pid: 32351
+[2017-04-11 13:41:38 +0000] [32427] [INFO] Starting gunicorn 19.6.0
+[2017-04-11 13:41:38 +0000] [32427] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 13:41:38 +0000] [32427] [ERROR] Retrying in 1 second.
+[2017-04-11 13:41:39 +0000] [32427] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 13:41:39 +0000] [32427] [ERROR] Retrying in 1 second.
+[2017-04-11 13:41:40 +0000] [32427] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 13:41:40 +0000] [32427] [ERROR] Retrying in 1 second.
+[2017-04-11 13:41:41 +0000] [32427] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 13:41:41 +0000] [32427] [ERROR] Retrying in 1 second.
+[2017-04-11 13:41:42 +0000] [32427] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 13:41:42 +0000] [32427] [ERROR] Retrying in 1 second.
+[2017-04-11 13:41:43 +0000] [32427] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-04-11 13:41:44 +0000] [32432] [INFO] Starting gunicorn 19.6.0
+[2017-04-11 13:41:44 +0000] [32432] [INFO] Listening at: http://0.0.0.0:80 (32432)
+[2017-04-11 13:41:44 +0000] [32432] [INFO] Using worker: sync
+[2017-04-11 13:41:44 +0000] [32437] [INFO] Booting worker with pid: 32437
+[2017-04-11 13:41:44 +0000] [32442] [INFO] Booting worker with pid: 32442
+[2017-04-11 13:41:44 +0000] [32443] [INFO] Booting worker with pid: 32443
+[2017-04-11 13:41:44 +0000] [32444] [INFO] Booting worker with pid: 32444
+[2017-04-11 13:44:05 +0000] [32511] [INFO] Starting gunicorn 19.6.0
+[2017-04-11 13:44:05 +0000] [32511] [INFO] Listening at: http://0.0.0.0:80 (32511)
+[2017-04-11 13:44:05 +0000] [32511] [INFO] Using worker: sync
+[2017-04-11 13:44:05 +0000] [32516] [INFO] Booting worker with pid: 32516
+[2017-04-11 13:44:05 +0000] [32521] [INFO] Booting worker with pid: 32521
+[2017-04-11 13:44:05 +0000] [32522] [INFO] Booting worker with pid: 32522
+[2017-04-11 13:44:05 +0000] [32526] [INFO] Booting worker with pid: 32526
+[2017-04-11 13:44:49 +0000] [32557] [INFO] Starting gunicorn 19.6.0
+[2017-04-11 13:44:49 +0000] [32557] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 13:44:49 +0000] [32557] [ERROR] Retrying in 1 second.
+[2017-04-11 13:44:50 +0000] [32557] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 13:44:50 +0000] [32557] [ERROR] Retrying in 1 second.
+[2017-04-11 13:44:51 +0000] [32557] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 13:44:51 +0000] [32557] [ERROR] Retrying in 1 second.
+[2017-04-11 13:44:52 +0000] [32557] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 13:44:52 +0000] [32557] [ERROR] Retrying in 1 second.
+[2017-04-11 13:44:53 +0000] [32557] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 13:44:53 +0000] [32557] [ERROR] Retrying in 1 second.
+[2017-04-11 13:44:54 +0000] [32557] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-04-11 13:44:55 +0000] [32562] [INFO] Starting gunicorn 19.6.0
+[2017-04-11 13:44:55 +0000] [32562] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 13:44:55 +0000] [32562] [ERROR] Retrying in 1 second.
+[2017-04-11 13:44:56 +0000] [32562] [INFO] Listening at: http://0.0.0.0:80 (32562)
+[2017-04-11 13:44:56 +0000] [32562] [INFO] Using worker: sync
+[2017-04-11 13:44:56 +0000] [32567] [INFO] Booting worker with pid: 32567
+[2017-04-11 13:44:56 +0000] [32572] [INFO] Booting worker with pid: 32572
+[2017-04-11 13:44:56 +0000] [32573] [INFO] Booting worker with pid: 32573
+[2017-04-11 13:44:56 +0000] [32580] [INFO] Booting worker with pid: 32580
+[2017-04-11 13:52:03 +0000] [32641] [INFO] Starting gunicorn 19.6.0
+[2017-04-11 13:52:03 +0000] [32641] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 13:52:03 +0000] [32641] [ERROR] Retrying in 1 second.
+[2017-04-11 13:52:04 +0000] [32641] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 13:52:04 +0000] [32641] [ERROR] Retrying in 1 second.
+[2017-04-11 13:52:05 +0000] [32641] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 13:52:05 +0000] [32641] [ERROR] Retrying in 1 second.
+[2017-04-11 13:52:06 +0000] [32641] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 13:52:06 +0000] [32641] [ERROR] Retrying in 1 second.
+[2017-04-11 13:52:07 +0000] [32641] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 13:52:07 +0000] [32641] [ERROR] Retrying in 1 second.
+[2017-04-11 13:52:08 +0000] [32641] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-04-11 13:52:09 +0000] [32646] [INFO] Starting gunicorn 19.6.0
+[2017-04-11 13:52:09 +0000] [32646] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 13:52:09 +0000] [32646] [ERROR] Retrying in 1 second.
+[2017-04-11 13:52:10 +0000] [32646] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 13:52:10 +0000] [32646] [ERROR] Retrying in 1 second.
+[2017-04-11 13:52:11 +0000] [32646] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 13:52:11 +0000] [32646] [ERROR] Retrying in 1 second.
+[2017-04-11 13:52:12 +0000] [32646] [INFO] Listening at: http://0.0.0.0:80 (32646)
+[2017-04-11 13:52:12 +0000] [32646] [INFO] Using worker: sync
+[2017-04-11 13:52:12 +0000] [32651] [INFO] Booting worker with pid: 32651
+[2017-04-11 13:52:12 +0000] [32656] [INFO] Booting worker with pid: 32656
+[2017-04-11 13:52:12 +0000] [32661] [INFO] Booting worker with pid: 32661
+[2017-04-11 13:52:12 +0000] [32662] [INFO] Booting worker with pid: 32662
+[2017-04-11 14:05:19 +0000] [429] [INFO] Starting gunicorn 19.6.0
+[2017-04-11 14:05:19 +0000] [429] [INFO] Listening at: http://0.0.0.0:80 (429)
+[2017-04-11 14:05:19 +0000] [429] [INFO] Using worker: sync
+[2017-04-11 14:05:19 +0000] [434] [INFO] Booting worker with pid: 434
+[2017-04-11 14:05:19 +0000] [435] [INFO] Booting worker with pid: 435
+[2017-04-11 14:05:19 +0000] [436] [INFO] Booting worker with pid: 436
+[2017-04-11 14:05:20 +0000] [438] [INFO] Booting worker with pid: 438
+[2017-04-11 14:05:25 +0000] [461] [INFO] Starting gunicorn 19.6.0
+[2017-04-11 14:05:25 +0000] [461] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 14:05:25 +0000] [461] [ERROR] Retrying in 1 second.
+[2017-04-11 14:05:26 +0000] [461] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 14:05:26 +0000] [461] [ERROR] Retrying in 1 second.
+[2017-04-11 14:05:27 +0000] [461] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 14:05:27 +0000] [461] [ERROR] Retrying in 1 second.
+[2017-04-11 14:05:28 +0000] [461] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 14:05:28 +0000] [461] [ERROR] Retrying in 1 second.
+[2017-04-11 14:05:29 +0000] [461] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 14:05:29 +0000] [461] [ERROR] Retrying in 1 second.
+[2017-04-11 14:05:30 +0000] [461] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-04-11 14:05:31 +0000] [469] [INFO] Starting gunicorn 19.6.0
+[2017-04-11 14:05:31 +0000] [469] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 14:05:31 +0000] [469] [ERROR] Retrying in 1 second.
+[2017-04-11 14:05:32 +0000] [469] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 14:05:32 +0000] [469] [ERROR] Retrying in 1 second.
+[2017-04-11 14:05:33 +0000] [469] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 14:05:33 +0000] [469] [ERROR] Retrying in 1 second.
+[2017-04-11 14:05:34 +0000] [469] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 14:05:34 +0000] [469] [ERROR] Retrying in 1 second.
+[2017-04-11 14:05:35 +0000] [469] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-04-11 14:05:35 +0000] [469] [ERROR] Retrying in 1 second.
+[2017-04-11 14:05:36 +0000] [469] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-04-11 14:05:37 +0000] [475] [INFO] Starting gunicorn 19.6.0
+[2017-04-11 14:05:37 +0000] [475] [INFO] Listening at: http://0.0.0.0:80 (475)
+[2017-04-11 14:05:37 +0000] [475] [INFO] Using worker: sync
+[2017-04-11 14:05:37 +0000] [480] [INFO] Booting worker with pid: 480
+[2017-04-11 14:05:37 +0000] [481] [INFO] Booting worker with pid: 481
+[2017-04-11 14:05:37 +0000] [482] [INFO] Booting worker with pid: 482
+[2017-04-11 14:05:37 +0000] [484] [INFO] Booting worker with pid: 484
+[2017-04-11 14:15:35 +0000] [475] [CRITICAL] WORKER TIMEOUT (pid:481)
+[2017-04-11 14:15:35 +0000] [481] [INFO] Worker exiting (pid: 481)
+[2017-04-11 14:15:35 +0000] [507] [INFO] Booting worker with pid: 507
+[2017-04-11 14:45:42 +0000] [636] [INFO] Starting gunicorn 19.6.0
+[2017-04-11 14:45:42 +0000] [636] [INFO] Listening at: http://0.0.0.0:80 (636)
+[2017-04-11 14:45:42 +0000] [636] [INFO] Using worker: sync
+[2017-04-11 14:45:42 +0000] [641] [INFO] Booting worker with pid: 641
+[2017-04-11 14:45:43 +0000] [646] [INFO] Booting worker with pid: 646
+[2017-04-11 14:45:43 +0000] [647] [INFO] Booting worker with pid: 647
+[2017-04-11 14:45:43 +0000] [652] [INFO] Booting worker with pid: 652

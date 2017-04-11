@@ -3,6 +3,7 @@ import sys
 import werobot
 import os
 import sqlite3
+import datetime
 import pickle
 
 basedir = os.path.dirname(os.path.abspath(__file__))
@@ -11,10 +12,12 @@ sys.setdefaultencoding('utf-8')
 robot = werobot.WeRoBot(token = 'helloworld')
 
 conf = werobot.config.Config()
-conf.from_pyfile('config.py')
+conf.from_pyfile(basedir + '/config.py')
 client = werobot.client.Client(conf)
 
-conn = sqlite3.connect('db/data.db')
+print basedir
+
+conn = sqlite3.connect(basedir + '/db/data.db')
 conn.row_factory = sqlite3.Row
 cr = conn.cursor()
 
@@ -37,17 +40,17 @@ client.create_menu({
             },
             {
                 "type":"click",
-                "name":"今日作业",
+                "name":"我要交作业",
                 "key":"HOMEWORK"
             },
             {
                 "name":"其他",
                 "sub_button":[
-                    {
-                        "type":"click",
-                        "name":"查找录音",
-                        "key":"SEEK"
-                    },
+                    #{
+                    #    "type":"click",
+                    #    "name":"查找录音",
+                    #    "key":"SEEK"
+                    #},
                     {
                         "type":"click",
                         "name":"我的信息",
@@ -55,7 +58,7 @@ client.create_menu({
                     },
                     {
                         "type":"click",
-                        "name":"我的班级",
+                        "name":"更改班级",
                         "key":"CHANGE_CID"
                     },
                     {
@@ -81,24 +84,13 @@ client.create_menu({
 #print req.text
 
 #lst = []
-@robot.key_click('LISTEN_HW')
-def listen_homework(message, session):
-    if session['user'] != 'teacher':
-        return u'你不是老师!'
-
-
-
-
-    return u'请输入想收听的学生姓名'
-
-
 
 @robot.key_click('MSTUDENT')
 def my_student(message, session):
-
     if session['user'] == 'teacher':
-        pass
+        session['status'] = 'tcr_seek_mstudent'
 
+        return u'请输入班级代码'
 
     else:
         return u'你不是老师!'
@@ -109,12 +101,9 @@ def change_cid(message, session):
     if session['user'] == 'student':
         session['status'] = 'input_cid'
         return u'请输入你的班级代码!'
-    if session['user'] == 'teacher':
-        session['status'] = 'input_cid'
-        return u'请输入你想要听课的班级!'
 
     else:
-        return u'你还未登录!'
+        return u'你不是学生或者还未登录!'
 
 
 @robot.key_click('LISTEN_HW')
@@ -132,30 +121,42 @@ def student_key(message, session):
     session['status'] = 'input_student_name'
     return u'请输入你的名字!'
 
-@robot.key_click('SEEK')
-def seek(message, session):
-    session['status'] = 'seek_id'
-    return u'请输入音频id'
+#@robot.key_click('SEEK')
+#def seek(message, session):
+#    session['status'] = 'seek_id'
+#    return u'请输入音频id'
 
 @robot.key_click('TEACHER_KEY')
 def teacher_key(message, session):
-    session['status'] = 'input_teacher_code'
-    return u'请输入教师代码'
+    session['status'] = 'input_tid'
+    return u'请输入教师号'
 
 @robot.key_click('MSG')
 def get_msg(message, session):
     if session['user']:
         if session['user'] == 'student':
+
+
+            sql = "select cname from student,class where sname='"+session['student_name']+"' and  class.cid=student.cid ;"
+            cr.execute(sql)
+            r = cr.fetchone()
+
+
+            if r:
+                return u'你好, ' + session['student_name'] + u'同学！\n你的班级是:' + r['cname']
+
             return u'你好' + session['student_name'] + u'同学！'
+
         if session['user'] == 'teacher':
-            return u'你好,老师,您的代码是' + session['teacher_code']
+            return u'你好,'+session['teacher_name']+u'老师'
+
     else:
         return '你还没登陆!\n老师请输入 我是老师\n学生请输入 我是学生'
 
 
 @robot.key_click('HOMEWORK')
 def homework_key(message, session):
-    if session['user'] == 'student' and session['status'] != 'listen':
+    if session['user'] == 'student':
         #session['status'] = 'recv_homework'
         #rply = werobot.replies.ArticlesReply(message = message)
         #article = werobot.replies.Article(
@@ -167,6 +168,21 @@ def homework_key(message, session):
         #rply.add_article(article)
         #return rply
 
+        sql = "select * from student where sname = '"+session['student_name']+"';"
+        cr.execute(sql)
+
+        r = cr.fetchone()
+
+        if r['cid'] == '':
+            return u'你还未选择班级!\n点击【其他】 - 【更改班级】 选择你的班级!'
+
+
+        session['status'] = 'record'
+        return u'你可以开始录音啦!'
+
+
+
+        '''
         sql = "select cid from student where sid='" + message.source + "';"
         cr.execute(sql)
         r = cr.fetchone()
@@ -219,6 +235,8 @@ def homework_key(message, session):
         else:
             session['status'] = ''
             return u'你听完了本次作业!'
+        '''
+
 
     else:
         return u'你还未登陆或者不是学生!'
@@ -230,7 +248,7 @@ def student(message, session):
 
 @robot.filter(u"我是老师")
 def teacher(message, session):
-    session['status'] = 'input_teacher_code'
+    session['status'] = 'input_tid'
     return u'请输入教师代码'
 
 #@robot.filter(u"msg")
@@ -241,7 +259,30 @@ def teacher(message, session):
 @robot.voice
 def voice_input(message, session):
     #if session['status'] == 'recv_homework':
-    return u'收到了语音!\n输入 我读完啦 来完成提交\nid:[在查找中输入可听]\n' + message.media_id
+
+    if session['status'] != 'record':
+        return u'学生请点击【我要交作业】来提交语音!'
+    else:
+
+
+        rid = message.media_id
+        sname = session['student_name']
+        rtime = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+
+        #删掉以前有的语音
+        sql = "delete from record where sname='"+sname+"';"
+        cr.execute(sql)
+        sql = "insert into record values ('%s', '%s', '%s');" % (sname, rid, rtime)
+        print sql
+        cr.execute(sql)
+        conn.commit()
+
+        session['status'] = ''
+
+        return u'作业已经提交啦! 你好棒! :)'
+
+
+
 
 
     #else:
@@ -253,15 +294,20 @@ def voice_input(message, session):
      #   return u'你还没说要叫交作业呢!'
 
 
-@robot.filter(u'我读完啦')
-def over(message, session):
-    if session['status'] == 'recv_homework':
-        session['status'] = ''
-        return u'您的作业已提交!'
-
-
 @robot.text
 def check_input(message, session):
+
+    _content = message.content
+
+    if '"' in _content:
+        return u'非法字符输入!'
+
+    if '\''  in _content:
+        return u'非法字符输入!'
+
+    if '%'  in _content:
+        return u'非法字符输入!'
+
     usrid = message.source
     usr = client.get_user_info(usrid, lang='zh_CN')
 
@@ -274,24 +320,10 @@ def check_input(message, session):
         r = cr.fetchone()
 
         if r:
-            cr.execute('update student set cid = ? where sid = ?;', (cid, usrid))
+            cname = r['cname']
+            cr.execute('update student set cid = ? where sname = ?;', (cid, session['student_name']))
             conn.commit()
-            return u'更改成功!'
-        else:
-            return u'不存在该班级代码!'
-
-    if session['status'] == 'input_cid' and session['user'] == 'teacher':
-        session['status'] = ''
-        cid = message.content
-        sql = "select * from class where cid='" + cid + "';"
-        print sql
-        cr.execute(sql)
-        r = cr.fetchone()
-
-        if r:
-            cr.execute('update teacher set cid = ? where tid = ?;', (cid, usrid))
-            conn.commit()
-            return u'更改成功!'
+            return u'更改成功!\n你的班级是【' + cname + u'】'
         else:
             return u'不存在该班级代码!'
 
@@ -299,43 +331,141 @@ def check_input(message, session):
 
     if session['status'] == 'input_student_name':
         name = message.content
+
+
         session['status'] = ''
         session['student_name'] = name
         session['user'] = 'student'
 
-        sql = "select * from student where sid ='" + usrid + "';"
-        print sql
+        sql = "select * from student where sname ='" + name + "';"
         cr.execute(sql)
         r = cr.fetchone()
-        print r
 
         if r:
-            return u'欢迎回来,' + name + u'\n请点击【今日作业】\n开始收听作业!'
+            print '\nStudent ' + name + ' log in '
+
+            return u'欢迎回来,' + name + u'\n请点击【我要交作业】\n开始录音!'
         else:
-            cr.execute("insert into student values (?, ?, ?);", (usrid, name, ''))
+            print '\nStudent ' + name +' registe'
+            cr.execute("insert into student values (?, ?);", (name, ''))
             conn.commit()
-            return u'欢迎第一次登陆,' + name + u'\n请点击【其他】- 【我的班级】输入班级代码\n然后点击【今日作业】开始收听作业!'
+            return u'欢迎第一次登陆,' + name + u'\n请点击【其他】- 【更改班级】输入班级代码\n然后点击【我要交作业】开始录音!'
 
-    if session['status'] == 'input_teacher_code':
-        code = message.content
-        session['user'] = 'teacher'
-        session['teacher_code'] = code
-        return u'你输入的教师编号是' + code
+    if session['status'] == 'input_tid':
+        tid = message.content
 
-    if session['status'] == 'seek_id':
-        session['status'] = ''
-        media_id = message.content
-        return werobot.replies.VoiceReply(message = message,
-                                          media_id = media_id)
-    if session['student_name']:
-        return u'你好' + session['student_name']
+        sql = "select * from teacher where tid='" + tid + "';"
+
+        print sql
+        cr.execute(sql)
+
+        r = cr.fetchone()
+
+        if r:
+            session['user'] = 'teacher'
+            session['teacher_name'] = r['tname']
+            return u'欢迎回来,'+ r['tname']  + u'老师!'
+        else:
+            return u'不存在的教师代码'
+
+    #if session['status'] == 'seek_id':
+    #    session['status'] = ''
+    #    media_id = message.content
+    #    return werobot.replies.VoiceReply(message = message,
+    #                                      media_id = media_id)
+
+    if session['status'] == 'tcr_seek_mstudent':
+        cid = message.content
+
+        sql = "select * from class where cid='" + cid + "'"
+        cr.execute(sql)
+
+        r = cr.fetchone()
+        if r == None:
+            return u'不存在的课程代码'
+
+        cname = r['cname']
+
+        sql = "select * from student where cid = '" + cid + "'"
+        cr.execute(sql)
+
+        r = cr.fetchone()
+
+        rst = u'【'+ cname + u'】班级的学生有:\n'
+
+        if r:
+            while r:
+                rst += r['sname'] + ' '
+                r = cr.fetchone()
+
+            return rst
+        else:
+            return u'该班级还没有学生!'
 
     if session['status'] == 'tcr_input_cid':
         cid = message.content
-        sql = "select * from class where cid = '" + cid + "';"
+
+        sql = "select * from class where cid='" + cid + "'"
         cr.execute(sql)
-        ####################################################
-        return u'学生列表'
+
+        r = cr.fetchone()
+        if r == None:
+            return u'不存在的课程代码'
+
+        cname = r['cname']
+
+        sql = "select * from student where cid = '" + cid + "'"
+        cr.execute(sql)
+
+        r = cr.fetchone()
+
+        rst = u'【'+ cname + u'】班级的学生有:\n'
+
+        seq = 0
+        student_dict = {}
+
+        if r:
+            while r:
+                rst += str(seq) + r['sname'] + '  '
+                student_dict[str(seq)] = r['sname']
+
+                seq += 1
+                r = cr.fetchone()
+
+            str_dict = pickle.dumps(student_dict)
+            session['str_dict'] = str_dict
+            session['status'] = 'listen_homework'
+            rst += u'\n输入学生名称前【序号】收听作业!'
+            return rst
+        else:
+            return u'该班级还没有学生!'
+
+    if session['status'] == 'listen_homework':
+
+        seq = message.content
+
+        str_dict = session['str_dict']
+        student_dict = pickle.loads(str_dict)
+        print student_dict
+        sname = student_dict.get(seq)
+
+        if sname == None:
+            return u'错误的序号'
+
+        sql = "select * from record where sname='"+sname+"';"
+
+        print sql
+
+        cr.execute(sql)
+        r = cr.fetchone()
+
+        if r:
+            return werobot.replies.VoiceReply(message = message,
+                                              media_id = r['rid'])
+        else:
+            return u'可能还没交作业或不存在!'
+
+
 
     return u'你好, ' + usr['nickname'] + u'''\n如果是学生请输入我是学生\n如果是老师请输入我是老师!'''
 
