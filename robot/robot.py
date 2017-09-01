@@ -435,7 +435,7 @@ def check_input(message, session):
             str_dict = pickle.dumps(student_dict)
             session['str_dict'] = str_dict
             session['status'] = 'listen_homework'
-            rst += u'\n输入学生名称前【序号】收听作业!'
+            rst += u'\n输入学生名称前【序号】收听作业!\n如未响应说明该学生没有提交作业!'
             return rst
         else:
             return u'该班级还没有学生!'
@@ -472,7 +472,7 @@ def check_input(message, session):
 
 @robot.subscribe
 def subscribe(message):
-    return u'欢迎关注起跑线!\n请点击【我是?】来登录:)'
+    return u'欢迎关注英贝佳国际少儿英语!\n请点击【我是?】来登录:)'
 
 
 #robot.config['HOST'] = '0.0.0.0'

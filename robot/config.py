@@ -1,2 +1,2 @@
-APP_SECRET = '5304fcbcc58a84a2f80c70074bed8257'
-APP_ID = 'wxa8174b4e3c1fe0eb'
+APP_SECRET = '4c8fa05e072c317fbae5bec6a4c11c71'
+APP_ID = 'wx613580d03bbe9eb0'

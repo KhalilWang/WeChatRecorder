@@ -1,205 +1,876 @@
-[2017-04-11 13:07:09 +0000] [31703] [INFO] Starting gunicorn 19.6.0
-[2017-04-11 13:07:09 +0000] [31703] [INFO] Listening at: http://0.0.0.0:80 (31703)
-[2017-04-11 13:07:09 +0000] [31703] [INFO] Using worker: sync
-[2017-04-11 13:07:09 +0000] [31708] [INFO] Booting worker with pid: 31708
-[2017-04-11 13:07:09 +0000] [31713] [INFO] Booting worker with pid: 31713
-[2017-04-11 13:07:09 +0000] [31718] [INFO] Booting worker with pid: 31718
-[2017-04-11 13:07:09 +0000] [31719] [INFO] Booting worker with pid: 31719
-[2017-04-11 13:14:37 +0000] [31845] [INFO] Starting gunicorn 19.6.0
-[2017-04-11 13:14:37 +0000] [31845] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 13:14:37 +0000] [31845] [ERROR] Retrying in 1 second.
-[2017-04-11 13:14:38 +0000] [31845] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 13:14:38 +0000] [31845] [ERROR] Retrying in 1 second.
-[2017-04-11 13:14:39 +0000] [31845] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 13:14:39 +0000] [31845] [ERROR] Retrying in 1 second.
-[2017-04-11 13:14:40 +0000] [31845] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 13:14:40 +0000] [31845] [ERROR] Retrying in 1 second.
-[2017-04-11 13:14:41 +0000] [31845] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 13:14:41 +0000] [31845] [ERROR] Retrying in 1 second.
-[2017-04-11 13:14:42 +0000] [31845] [ERROR] Can't connect to ('0.0.0.0', 80)
-[2017-04-11 13:14:43 +0000] [31850] [INFO] Starting gunicorn 19.6.0
-[2017-04-11 13:14:43 +0000] [31850] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 13:14:43 +0000] [31850] [ERROR] Retrying in 1 second.
-[2017-04-11 13:14:44 +0000] [31850] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 13:14:44 +0000] [31850] [ERROR] Retrying in 1 second.
-[2017-04-11 13:14:45 +0000] [31850] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 13:14:45 +0000] [31850] [ERROR] Retrying in 1 second.
-[2017-04-11 13:14:46 +0000] [31850] [INFO] Listening at: http://0.0.0.0:80 (31850)
-[2017-04-11 13:14:46 +0000] [31850] [INFO] Using worker: sync
-[2017-04-11 13:14:46 +0000] [31855] [INFO] Booting worker with pid: 31855
-[2017-04-11 13:14:46 +0000] [31860] [INFO] Booting worker with pid: 31860
-[2017-04-11 13:14:46 +0000] [31861] [INFO] Booting worker with pid: 31861
-[2017-04-11 13:14:46 +0000] [31868] [INFO] Booting worker with pid: 31868
-[2017-04-11 13:23:01 +0000] [31935] [INFO] Starting gunicorn 19.6.0
-[2017-04-11 13:23:01 +0000] [31935] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 13:23:01 +0000] [31935] [ERROR] Retrying in 1 second.
-[2017-04-11 13:23:02 +0000] [31935] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 13:23:02 +0000] [31935] [ERROR] Retrying in 1 second.
-[2017-04-11 13:23:03 +0000] [31935] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 13:23:03 +0000] [31935] [ERROR] Retrying in 1 second.
-[2017-04-11 13:23:04 +0000] [31935] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 13:23:04 +0000] [31935] [ERROR] Retrying in 1 second.
-[2017-04-11 13:23:05 +0000] [31935] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 13:23:05 +0000] [31935] [ERROR] Retrying in 1 second.
-[2017-04-11 13:23:06 +0000] [31935] [ERROR] Can't connect to ('0.0.0.0', 80)
-[2017-04-11 13:23:07 +0000] [31941] [INFO] Starting gunicorn 19.6.0
-[2017-04-11 13:23:07 +0000] [31941] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 13:23:07 +0000] [31941] [ERROR] Retrying in 1 second.
-[2017-04-11 13:23:08 +0000] [31941] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 13:23:08 +0000] [31941] [ERROR] Retrying in 1 second.
-[2017-04-11 13:23:09 +0000] [31941] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 13:23:09 +0000] [31941] [ERROR] Retrying in 1 second.
-[2017-04-11 13:23:10 +0000] [31941] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 13:23:10 +0000] [31941] [ERROR] Retrying in 1 second.
-[2017-04-11 13:23:11 +0000] [31941] [INFO] Listening at: http://0.0.0.0:80 (31941)
-[2017-04-11 13:23:11 +0000] [31941] [INFO] Using worker: sync
-[2017-04-11 13:23:11 +0000] [31946] [INFO] Booting worker with pid: 31946
-[2017-04-11 13:23:11 +0000] [31947] [INFO] Booting worker with pid: 31947
-[2017-04-11 13:23:11 +0000] [31948] [INFO] Booting worker with pid: 31948
-[2017-04-11 13:23:11 +0000] [31955] [INFO] Booting worker with pid: 31955
-[2017-04-11 13:35:56 +0000] [32312] [INFO] Starting gunicorn 19.6.0
-[2017-04-11 13:35:56 +0000] [32312] [INFO] Listening at: http://0.0.0.0:80 (32312)
-[2017-04-11 13:35:56 +0000] [32312] [INFO] Using worker: sync
-[2017-04-11 13:35:56 +0000] [32317] [INFO] Booting worker with pid: 32317
-[2017-04-11 13:35:56 +0000] [32322] [INFO] Booting worker with pid: 32322
-[2017-04-11 13:35:56 +0000] [32323] [INFO] Booting worker with pid: 32323
-[2017-04-11 13:35:56 +0000] [32330] [INFO] Booting worker with pid: 32330
-[2017-04-11 13:36:06 +0000] [32338] [INFO] Starting gunicorn 19.6.0
-[2017-04-11 13:36:06 +0000] [32338] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 13:36:06 +0000] [32338] [ERROR] Retrying in 1 second.
-[2017-04-11 13:36:07 +0000] [32338] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 13:36:07 +0000] [32338] [ERROR] Retrying in 1 second.
-[2017-04-11 13:36:08 +0000] [32338] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 13:36:08 +0000] [32338] [ERROR] Retrying in 1 second.
-[2017-04-11 13:36:09 +0000] [32338] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 13:36:09 +0000] [32338] [ERROR] Retrying in 1 second.
-[2017-04-11 13:36:10 +0000] [32338] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 13:36:10 +0000] [32338] [ERROR] Retrying in 1 second.
-[2017-04-11 13:36:11 +0000] [32338] [ERROR] Can't connect to ('0.0.0.0', 80)
-[2017-04-11 13:36:12 +0000] [32343] [INFO] Starting gunicorn 19.6.0
-[2017-04-11 13:36:12 +0000] [32343] [INFO] Listening at: http://0.0.0.0:80 (32343)
-[2017-04-11 13:36:12 +0000] [32343] [INFO] Using worker: sync
-[2017-04-11 13:36:12 +0000] [32348] [INFO] Booting worker with pid: 32348
-[2017-04-11 13:36:12 +0000] [32349] [INFO] Booting worker with pid: 32349
-[2017-04-11 13:36:12 +0000] [32350] [INFO] Booting worker with pid: 32350
-[2017-04-11 13:36:12 +0000] [32351] [INFO] Booting worker with pid: 32351
-[2017-04-11 13:41:38 +0000] [32427] [INFO] Starting gunicorn 19.6.0
-[2017-04-11 13:41:38 +0000] [32427] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 13:41:38 +0000] [32427] [ERROR] Retrying in 1 second.
-[2017-04-11 13:41:39 +0000] [32427] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 13:41:39 +0000] [32427] [ERROR] Retrying in 1 second.
-[2017-04-11 13:41:40 +0000] [32427] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 13:41:40 +0000] [32427] [ERROR] Retrying in 1 second.
-[2017-04-11 13:41:41 +0000] [32427] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 13:41:41 +0000] [32427] [ERROR] Retrying in 1 second.
-[2017-04-11 13:41:42 +0000] [32427] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 13:41:42 +0000] [32427] [ERROR] Retrying in 1 second.
-[2017-04-11 13:41:43 +0000] [32427] [ERROR] Can't connect to ('0.0.0.0', 80)
-[2017-04-11 13:41:44 +0000] [32432] [INFO] Starting gunicorn 19.6.0
-[2017-04-11 13:41:44 +0000] [32432] [INFO] Listening at: http://0.0.0.0:80 (32432)
-[2017-04-11 13:41:44 +0000] [32432] [INFO] Using worker: sync
-[2017-04-11 13:41:44 +0000] [32437] [INFO] Booting worker with pid: 32437
-[2017-04-11 13:41:44 +0000] [32442] [INFO] Booting worker with pid: 32442
-[2017-04-11 13:41:44 +0000] [32443] [INFO] Booting worker with pid: 32443
-[2017-04-11 13:41:44 +0000] [32444] [INFO] Booting worker with pid: 32444
-[2017-04-11 13:44:05 +0000] [32511] [INFO] Starting gunicorn 19.6.0
-[2017-04-11 13:44:05 +0000] [32511] [INFO] Listening at: http://0.0.0.0:80 (32511)
-[2017-04-11 13:44:05 +0000] [32511] [INFO] Using worker: sync
-[2017-04-11 13:44:05 +0000] [32516] [INFO] Booting worker with pid: 32516
-[2017-04-11 13:44:05 +0000] [32521] [INFO] Booting worker with pid: 32521
-[2017-04-11 13:44:05 +0000] [32522] [INFO] Booting worker with pid: 32522
-[2017-04-11 13:44:05 +0000] [32526] [INFO] Booting worker with pid: 32526
-[2017-04-11 13:44:49 +0000] [32557] [INFO] Starting gunicorn 19.6.0
-[2017-04-11 13:44:49 +0000] [32557] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 13:44:49 +0000] [32557] [ERROR] Retrying in 1 second.
-[2017-04-11 13:44:50 +0000] [32557] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 13:44:50 +0000] [32557] [ERROR] Retrying in 1 second.
-[2017-04-11 13:44:51 +0000] [32557] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 13:44:51 +0000] [32557] [ERROR] Retrying in 1 second.
-[2017-04-11 13:44:52 +0000] [32557] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 13:44:52 +0000] [32557] [ERROR] Retrying in 1 second.
-[2017-04-11 13:44:53 +0000] [32557] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 13:44:53 +0000] [32557] [ERROR] Retrying in 1 second.
-[2017-04-11 13:44:54 +0000] [32557] [ERROR] Can't connect to ('0.0.0.0', 80)
-[2017-04-11 13:44:55 +0000] [32562] [INFO] Starting gunicorn 19.6.0
-[2017-04-11 13:44:55 +0000] [32562] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 13:44:55 +0000] [32562] [ERROR] Retrying in 1 second.
-[2017-04-11 13:44:56 +0000] [32562] [INFO] Listening at: http://0.0.0.0:80 (32562)
-[2017-04-11 13:44:56 +0000] [32562] [INFO] Using worker: sync
-[2017-04-11 13:44:56 +0000] [32567] [INFO] Booting worker with pid: 32567
-[2017-04-11 13:44:56 +0000] [32572] [INFO] Booting worker with pid: 32572
-[2017-04-11 13:44:56 +0000] [32573] [INFO] Booting worker with pid: 32573
-[2017-04-11 13:44:56 +0000] [32580] [INFO] Booting worker with pid: 32580
-[2017-04-11 13:52:03 +0000] [32641] [INFO] Starting gunicorn 19.6.0
-[2017-04-11 13:52:03 +0000] [32641] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 13:52:03 +0000] [32641] [ERROR] Retrying in 1 second.
-[2017-04-11 13:52:04 +0000] [32641] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 13:52:04 +0000] [32641] [ERROR] Retrying in 1 second.
-[2017-04-11 13:52:05 +0000] [32641] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 13:52:05 +0000] [32641] [ERROR] Retrying in 1 second.
-[2017-04-11 13:52:06 +0000] [32641] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 13:52:06 +0000] [32641] [ERROR] Retrying in 1 second.
-[2017-04-11 13:52:07 +0000] [32641] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 13:52:07 +0000] [32641] [ERROR] Retrying in 1 second.
-[2017-04-11 13:52:08 +0000] [32641] [ERROR] Can't connect to ('0.0.0.0', 80)
-[2017-04-11 13:52:09 +0000] [32646] [INFO] Starting gunicorn 19.6.0
-[2017-04-11 13:52:09 +0000] [32646] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 13:52:09 +0000] [32646] [ERROR] Retrying in 1 second.
-[2017-04-11 13:52:10 +0000] [32646] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 13:52:10 +0000] [32646] [ERROR] Retrying in 1 second.
-[2017-04-11 13:52:11 +0000] [32646] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 13:52:11 +0000] [32646] [ERROR] Retrying in 1 second.
-[2017-04-11 13:52:12 +0000] [32646] [INFO] Listening at: http://0.0.0.0:80 (32646)
-[2017-04-11 13:52:12 +0000] [32646] [INFO] Using worker: sync
-[2017-04-11 13:52:12 +0000] [32651] [INFO] Booting worker with pid: 32651
-[2017-04-11 13:52:12 +0000] [32656] [INFO] Booting worker with pid: 32656
-[2017-04-11 13:52:12 +0000] [32661] [INFO] Booting worker with pid: 32661
-[2017-04-11 13:52:12 +0000] [32662] [INFO] Booting worker with pid: 32662
-[2017-04-11 14:05:19 +0000] [429] [INFO] Starting gunicorn 19.6.0
-[2017-04-11 14:05:19 +0000] [429] [INFO] Listening at: http://0.0.0.0:80 (429)
-[2017-04-11 14:05:19 +0000] [429] [INFO] Using worker: sync
-[2017-04-11 14:05:19 +0000] [434] [INFO] Booting worker with pid: 434
-[2017-04-11 14:05:19 +0000] [435] [INFO] Booting worker with pid: 435
-[2017-04-11 14:05:19 +0000] [436] [INFO] Booting worker with pid: 436
-[2017-04-11 14:05:20 +0000] [438] [INFO] Booting worker with pid: 438
-[2017-04-11 14:05:25 +0000] [461] [INFO] Starting gunicorn 19.6.0
-[2017-04-11 14:05:25 +0000] [461] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 14:05:25 +0000] [461] [ERROR] Retrying in 1 second.
-[2017-04-11 14:05:26 +0000] [461] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 14:05:26 +0000] [461] [ERROR] Retrying in 1 second.
-[2017-04-11 14:05:27 +0000] [461] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 14:05:27 +0000] [461] [ERROR] Retrying in 1 second.
-[2017-04-11 14:05:28 +0000] [461] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 14:05:28 +0000] [461] [ERROR] Retrying in 1 second.
-[2017-04-11 14:05:29 +0000] [461] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 14:05:29 +0000] [461] [ERROR] Retrying in 1 second.
-[2017-04-11 14:05:30 +0000] [461] [ERROR] Can't connect to ('0.0.0.0', 80)
-[2017-04-11 14:05:31 +0000] [469] [INFO] Starting gunicorn 19.6.0
-[2017-04-11 14:05:31 +0000] [469] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 14:05:31 +0000] [469] [ERROR] Retrying in 1 second.
-[2017-04-11 14:05:32 +0000] [469] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 14:05:32 +0000] [469] [ERROR] Retrying in 1 second.
-[2017-04-11 14:05:33 +0000] [469] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 14:05:33 +0000] [469] [ERROR] Retrying in 1 second.
-[2017-04-11 14:05:34 +0000] [469] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 14:05:34 +0000] [469] [ERROR] Retrying in 1 second.
-[2017-04-11 14:05:35 +0000] [469] [ERROR] Connection in use: ('0.0.0.0', 80)
-[2017-04-11 14:05:35 +0000] [469] [ERROR] Retrying in 1 second.
-[2017-04-11 14:05:36 +0000] [469] [ERROR] Can't connect to ('0.0.0.0', 80)
-[2017-04-11 14:05:37 +0000] [475] [INFO] Starting gunicorn 19.6.0
-[2017-04-11 14:05:37 +0000] [475] [INFO] Listening at: http://0.0.0.0:80 (475)
-[2017-04-11 14:05:37 +0000] [475] [INFO] Using worker: sync
-[2017-04-11 14:05:37 +0000] [480] [INFO] Booting worker with pid: 480
-[2017-04-11 14:05:37 +0000] [481] [INFO] Booting worker with pid: 481
-[2017-04-11 14:05:37 +0000] [482] [INFO] Booting worker with pid: 482
-[2017-04-11 14:05:37 +0000] [484] [INFO] Booting worker with pid: 484
-[2017-04-11 14:15:35 +0000] [475] [CRITICAL] WORKER TIMEOUT (pid:481)
-[2017-04-11 14:15:35 +0000] [481] [INFO] Worker exiting (pid: 481)
-[2017-04-11 14:15:35 +0000] [507] [INFO] Booting worker with pid: 507
-[2017-04-11 14:45:42 +0000] [636] [INFO] Starting gunicorn 19.6.0
-[2017-04-11 14:45:42 +0000] [636] [INFO] Listening at: http://0.0.0.0:80 (636)
-[2017-04-11 14:45:42 +0000] [636] [INFO] Using worker: sync
-[2017-04-11 14:45:42 +0000] [641] [INFO] Booting worker with pid: 641
-[2017-04-11 14:45:43 +0000] [646] [INFO] Booting worker with pid: 646
-[2017-04-11 14:45:43 +0000] [647] [INFO] Booting worker with pid: 647
-[2017-04-11 14:45:43 +0000] [652] [INFO] Booting worker with pid: 652
+[2017-05-31 23:04:42 +0000] [12446] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:04:42 +0000] [12446] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:04:42 +0000] [12446] [ERROR] Retrying in 1 second.
+[2017-05-31 23:04:43 +0000] [12446] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:04:43 +0000] [12446] [ERROR] Retrying in 1 second.
+[2017-05-31 23:04:44 +0000] [12446] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:04:44 +0000] [12446] [ERROR] Retrying in 1 second.
+[2017-05-31 23:04:45 +0000] [12446] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:04:45 +0000] [12446] [ERROR] Retrying in 1 second.
+[2017-05-31 23:04:46 +0000] [12446] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:04:46 +0000] [12446] [ERROR] Retrying in 1 second.
+[2017-05-31 23:04:47 +0000] [12446] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:04:49 +0000] [12489] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:04:49 +0000] [12489] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:04:49 +0000] [12489] [ERROR] Retrying in 1 second.
+[2017-05-31 23:04:50 +0000] [12489] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:04:50 +0000] [12489] [ERROR] Retrying in 1 second.
+[2017-05-31 23:04:51 +0000] [12489] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:04:51 +0000] [12489] [ERROR] Retrying in 1 second.
+[2017-05-31 23:04:52 +0000] [12489] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:04:52 +0000] [12489] [ERROR] Retrying in 1 second.
+[2017-05-31 23:04:53 +0000] [12489] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:04:53 +0000] [12489] [ERROR] Retrying in 1 second.
+[2017-05-31 23:04:54 +0000] [12489] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:04:55 +0000] [12524] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:04:55 +0000] [12524] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:04:55 +0000] [12524] [ERROR] Retrying in 1 second.
+[2017-05-31 23:04:56 +0000] [12524] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:04:56 +0000] [12524] [ERROR] Retrying in 1 second.
+[2017-05-31 23:04:57 +0000] [12524] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:04:57 +0000] [12524] [ERROR] Retrying in 1 second.
+[2017-05-31 23:04:58 +0000] [12524] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:04:58 +0000] [12524] [ERROR] Retrying in 1 second.
+[2017-05-31 23:04:59 +0000] [12524] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:04:59 +0000] [12524] [ERROR] Retrying in 1 second.
+[2017-05-31 23:05:00 +0000] [12524] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:05:01 +0000] [12538] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:05:01 +0000] [12538] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:05:01 +0000] [12538] [ERROR] Retrying in 1 second.
+[2017-05-31 23:05:02 +0000] [12538] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:05:02 +0000] [12538] [ERROR] Retrying in 1 second.
+[2017-05-31 23:05:03 +0000] [12538] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:05:03 +0000] [12538] [ERROR] Retrying in 1 second.
+[2017-05-31 23:05:04 +0000] [12538] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:05:04 +0000] [12538] [ERROR] Retrying in 1 second.
+[2017-05-31 23:05:05 +0000] [12538] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:05:05 +0000] [12538] [ERROR] Retrying in 1 second.
+[2017-05-31 23:05:06 +0000] [12538] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:05:07 +0000] [12559] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:05:07 +0000] [12559] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:05:07 +0000] [12559] [ERROR] Retrying in 1 second.
+[2017-05-31 23:05:08 +0000] [12559] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:05:08 +0000] [12559] [ERROR] Retrying in 1 second.
+[2017-05-31 23:05:09 +0000] [12559] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:05:09 +0000] [12559] [ERROR] Retrying in 1 second.
+[2017-05-31 23:05:10 +0000] [12559] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:05:10 +0000] [12559] [ERROR] Retrying in 1 second.
+[2017-05-31 23:05:11 +0000] [12559] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:05:11 +0000] [12559] [ERROR] Retrying in 1 second.
+[2017-05-31 23:05:12 +0000] [12559] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:05:14 +0000] [12594] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:05:14 +0000] [12594] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:05:14 +0000] [12594] [ERROR] Retrying in 1 second.
+[2017-05-31 23:05:15 +0000] [12594] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:05:15 +0000] [12594] [ERROR] Retrying in 1 second.
+[2017-05-31 23:05:16 +0000] [12594] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:05:16 +0000] [12594] [ERROR] Retrying in 1 second.
+[2017-05-31 23:05:17 +0000] [12594] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:05:17 +0000] [12594] [ERROR] Retrying in 1 second.
+[2017-05-31 23:05:18 +0000] [12594] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:05:18 +0000] [12594] [ERROR] Retrying in 1 second.
+[2017-05-31 23:05:19 +0000] [12594] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:05:20 +0000] [12614] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:05:20 +0000] [12614] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:05:20 +0000] [12614] [ERROR] Retrying in 1 second.
+[2017-05-31 23:05:21 +0000] [12614] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:05:21 +0000] [12614] [ERROR] Retrying in 1 second.
+[2017-05-31 23:05:22 +0000] [12614] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:05:22 +0000] [12614] [ERROR] Retrying in 1 second.
+[2017-05-31 23:05:23 +0000] [12614] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:05:23 +0000] [12614] [ERROR] Retrying in 1 second.
+[2017-05-31 23:05:24 +0000] [12614] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:05:24 +0000] [12614] [ERROR] Retrying in 1 second.
+[2017-05-31 23:05:25 +0000] [12614] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:05:26 +0000] [12620] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:05:26 +0000] [12620] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:05:26 +0000] [12620] [ERROR] Retrying in 1 second.
+[2017-05-31 23:05:27 +0000] [12620] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:05:27 +0000] [12620] [ERROR] Retrying in 1 second.
+[2017-05-31 23:05:28 +0000] [12620] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:05:28 +0000] [12620] [ERROR] Retrying in 1 second.
+[2017-05-31 23:05:29 +0000] [12620] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:05:29 +0000] [12620] [ERROR] Retrying in 1 second.
+[2017-05-31 23:05:30 +0000] [12620] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:05:30 +0000] [12620] [ERROR] Retrying in 1 second.
+[2017-05-31 23:05:31 +0000] [12620] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:05:32 +0000] [12625] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:05:32 +0000] [12625] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:05:32 +0000] [12625] [ERROR] Retrying in 1 second.
+[2017-05-31 23:05:33 +0000] [12625] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:05:33 +0000] [12625] [ERROR] Retrying in 1 second.
+[2017-05-31 23:05:34 +0000] [12625] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:05:34 +0000] [12625] [ERROR] Retrying in 1 second.
+[2017-05-31 23:05:35 +0000] [12625] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:05:35 +0000] [12625] [ERROR] Retrying in 1 second.
+[2017-05-31 23:05:36 +0000] [12625] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:05:36 +0000] [12625] [ERROR] Retrying in 1 second.
+[2017-05-31 23:05:37 +0000] [12625] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:05:39 +0000] [12630] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:05:39 +0000] [12630] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:05:39 +0000] [12630] [ERROR] Retrying in 1 second.
+[2017-05-31 23:05:41 +0000] [12635] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:05:41 +0000] [12635] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:05:41 +0000] [12635] [ERROR] Retrying in 1 second.
+[2017-05-31 23:05:42 +0000] [12635] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:05:42 +0000] [12635] [ERROR] Retrying in 1 second.
+[2017-05-31 23:05:43 +0000] [12635] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:05:43 +0000] [12635] [ERROR] Retrying in 1 second.
+[2017-05-31 23:05:44 +0000] [12635] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:05:44 +0000] [12635] [ERROR] Retrying in 1 second.
+[2017-05-31 23:05:45 +0000] [12635] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:05:45 +0000] [12635] [ERROR] Retrying in 1 second.
+[2017-05-31 23:05:46 +0000] [12635] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:05:47 +0000] [12655] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:05:47 +0000] [12655] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:05:47 +0000] [12655] [ERROR] Retrying in 1 second.
+[2017-05-31 23:05:48 +0000] [12655] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:05:48 +0000] [12655] [ERROR] Retrying in 1 second.
+[2017-05-31 23:05:49 +0000] [12655] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:05:49 +0000] [12655] [ERROR] Retrying in 1 second.
+[2017-05-31 23:05:50 +0000] [12655] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:05:50 +0000] [12655] [ERROR] Retrying in 1 second.
+[2017-05-31 23:05:51 +0000] [12655] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:05:51 +0000] [12655] [ERROR] Retrying in 1 second.
+[2017-05-31 23:05:52 +0000] [12655] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:05:53 +0000] [12660] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:05:53 +0000] [12660] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:05:53 +0000] [12660] [ERROR] Retrying in 1 second.
+[2017-05-31 23:05:54 +0000] [12660] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:05:54 +0000] [12660] [ERROR] Retrying in 1 second.
+[2017-05-31 23:05:55 +0000] [12660] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:05:55 +0000] [12660] [ERROR] Retrying in 1 second.
+[2017-05-31 23:05:56 +0000] [12660] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:05:56 +0000] [12660] [ERROR] Retrying in 1 second.
+[2017-05-31 23:05:57 +0000] [12660] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:05:57 +0000] [12660] [ERROR] Retrying in 1 second.
+[2017-05-31 23:05:58 +0000] [12660] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:06:00 +0000] [12666] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:06:00 +0000] [12666] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:06:00 +0000] [12666] [ERROR] Retrying in 1 second.
+[2017-05-31 23:06:01 +0000] [12666] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:06:01 +0000] [12666] [ERROR] Retrying in 1 second.
+[2017-05-31 23:06:02 +0000] [12666] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:06:02 +0000] [12666] [ERROR] Retrying in 1 second.
+[2017-05-31 23:06:03 +0000] [12666] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:06:03 +0000] [12666] [ERROR] Retrying in 1 second.
+[2017-05-31 23:06:04 +0000] [12666] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:06:04 +0000] [12666] [ERROR] Retrying in 1 second.
+[2017-05-31 23:06:05 +0000] [12666] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:06:06 +0000] [12671] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:06:06 +0000] [12671] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:06:06 +0000] [12671] [ERROR] Retrying in 1 second.
+[2017-05-31 23:06:07 +0000] [12671] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:06:07 +0000] [12671] [ERROR] Retrying in 1 second.
+[2017-05-31 23:06:08 +0000] [12671] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:06:08 +0000] [12671] [ERROR] Retrying in 1 second.
+[2017-05-31 23:06:09 +0000] [12671] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:06:09 +0000] [12671] [ERROR] Retrying in 1 second.
+[2017-05-31 23:06:10 +0000] [12671] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:06:10 +0000] [12671] [ERROR] Retrying in 1 second.
+[2017-05-31 23:06:11 +0000] [12671] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:06:12 +0000] [12676] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:06:12 +0000] [12676] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:06:12 +0000] [12676] [ERROR] Retrying in 1 second.
+[2017-05-31 23:06:13 +0000] [12676] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:06:13 +0000] [12676] [ERROR] Retrying in 1 second.
+[2017-05-31 23:06:14 +0000] [12676] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:06:14 +0000] [12676] [ERROR] Retrying in 1 second.
+[2017-05-31 23:06:15 +0000] [12676] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:06:15 +0000] [12676] [ERROR] Retrying in 1 second.
+[2017-05-31 23:06:16 +0000] [12676] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:06:16 +0000] [12676] [ERROR] Retrying in 1 second.
+[2017-05-31 23:06:17 +0000] [12676] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:06:18 +0000] [12681] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:06:18 +0000] [12681] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:06:18 +0000] [12681] [ERROR] Retrying in 1 second.
+[2017-05-31 23:06:19 +0000] [12681] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:06:19 +0000] [12681] [ERROR] Retrying in 1 second.
+[2017-05-31 23:06:20 +0000] [12681] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:06:20 +0000] [12681] [ERROR] Retrying in 1 second.
+[2017-05-31 23:06:21 +0000] [12681] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:06:21 +0000] [12681] [ERROR] Retrying in 1 second.
+[2017-05-31 23:06:22 +0000] [12681] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:06:22 +0000] [12681] [ERROR] Retrying in 1 second.
+[2017-05-31 23:06:23 +0000] [12681] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:06:25 +0000] [12686] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:06:25 +0000] [12686] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:06:25 +0000] [12686] [ERROR] Retrying in 1 second.
+[2017-05-31 23:06:26 +0000] [12686] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:06:26 +0000] [12686] [ERROR] Retrying in 1 second.
+[2017-05-31 23:06:27 +0000] [12686] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:06:27 +0000] [12686] [ERROR] Retrying in 1 second.
+[2017-05-31 23:06:28 +0000] [12686] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:06:28 +0000] [12686] [ERROR] Retrying in 1 second.
+[2017-05-31 23:06:29 +0000] [12686] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:06:29 +0000] [12686] [ERROR] Retrying in 1 second.
+[2017-05-31 23:06:30 +0000] [12686] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:06:31 +0000] [12706] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:06:31 +0000] [12706] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:06:31 +0000] [12706] [ERROR] Retrying in 1 second.
+[2017-05-31 23:06:32 +0000] [12706] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:06:32 +0000] [12706] [ERROR] Retrying in 1 second.
+[2017-05-31 23:06:33 +0000] [12706] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:06:33 +0000] [12706] [ERROR] Retrying in 1 second.
+[2017-05-31 23:06:34 +0000] [12706] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:06:34 +0000] [12706] [ERROR] Retrying in 1 second.
+[2017-05-31 23:06:35 +0000] [12706] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:06:35 +0000] [12706] [ERROR] Retrying in 1 second.
+[2017-05-31 23:06:36 +0000] [12706] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:06:37 +0000] [12726] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:06:37 +0000] [12726] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:06:37 +0000] [12726] [ERROR] Retrying in 1 second.
+[2017-05-31 23:06:38 +0000] [12726] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:06:38 +0000] [12726] [ERROR] Retrying in 1 second.
+[2017-05-31 23:06:39 +0000] [12726] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:06:39 +0000] [12726] [ERROR] Retrying in 1 second.
+[2017-05-31 23:06:40 +0000] [12726] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:06:40 +0000] [12726] [ERROR] Retrying in 1 second.
+[2017-05-31 23:06:41 +0000] [12726] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:06:41 +0000] [12726] [ERROR] Retrying in 1 second.
+[2017-05-31 23:06:42 +0000] [12726] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:06:43 +0000] [12731] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:06:43 +0000] [12731] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:06:43 +0000] [12731] [ERROR] Retrying in 1 second.
+[2017-05-31 23:06:44 +0000] [12731] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:06:44 +0000] [12731] [ERROR] Retrying in 1 second.
+[2017-05-31 23:06:45 +0000] [12731] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:06:45 +0000] [12731] [ERROR] Retrying in 1 second.
+[2017-05-31 23:06:46 +0000] [12731] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:06:46 +0000] [12731] [ERROR] Retrying in 1 second.
+[2017-05-31 23:06:47 +0000] [12731] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:06:47 +0000] [12731] [ERROR] Retrying in 1 second.
+[2017-05-31 23:06:48 +0000] [12731] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:06:50 +0000] [12736] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:06:50 +0000] [12736] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:06:50 +0000] [12736] [ERROR] Retrying in 1 second.
+[2017-05-31 23:06:51 +0000] [12736] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:06:51 +0000] [12736] [ERROR] Retrying in 1 second.
+[2017-05-31 23:06:52 +0000] [12736] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:06:52 +0000] [12736] [ERROR] Retrying in 1 second.
+[2017-05-31 23:06:53 +0000] [12736] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:06:53 +0000] [12736] [ERROR] Retrying in 1 second.
+[2017-05-31 23:06:54 +0000] [12736] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:06:54 +0000] [12736] [ERROR] Retrying in 1 second.
+[2017-05-31 23:06:55 +0000] [12736] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:06:56 +0000] [12741] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:06:56 +0000] [12741] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:06:56 +0000] [12741] [ERROR] Retrying in 1 second.
+[2017-05-31 23:06:57 +0000] [12741] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:06:57 +0000] [12741] [ERROR] Retrying in 1 second.
+[2017-05-31 23:06:58 +0000] [12741] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:06:58 +0000] [12741] [ERROR] Retrying in 1 second.
+[2017-05-31 23:06:59 +0000] [12741] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:06:59 +0000] [12741] [ERROR] Retrying in 1 second.
+[2017-05-31 23:07:00 +0000] [12741] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:07:00 +0000] [12741] [ERROR] Retrying in 1 second.
+[2017-05-31 23:07:01 +0000] [12741] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:07:02 +0000] [12746] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:07:02 +0000] [12746] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:07:02 +0000] [12746] [ERROR] Retrying in 1 second.
+[2017-05-31 23:07:03 +0000] [12746] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:07:03 +0000] [12746] [ERROR] Retrying in 1 second.
+[2017-05-31 23:07:04 +0000] [12746] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:07:04 +0000] [12746] [ERROR] Retrying in 1 second.
+[2017-05-31 23:07:05 +0000] [12746] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:07:05 +0000] [12746] [ERROR] Retrying in 1 second.
+[2017-05-31 23:07:06 +0000] [12746] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:07:06 +0000] [12746] [ERROR] Retrying in 1 second.
+[2017-05-31 23:07:07 +0000] [12746] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:07:08 +0000] [12751] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:07:08 +0000] [12751] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:07:08 +0000] [12751] [ERROR] Retrying in 1 second.
+[2017-05-31 23:07:09 +0000] [12751] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:07:09 +0000] [12751] [ERROR] Retrying in 1 second.
+[2017-05-31 23:07:10 +0000] [12751] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:07:10 +0000] [12751] [ERROR] Retrying in 1 second.
+[2017-05-31 23:07:11 +0000] [12751] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:07:11 +0000] [12751] [ERROR] Retrying in 1 second.
+[2017-05-31 23:07:12 +0000] [12751] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:07:12 +0000] [12751] [ERROR] Retrying in 1 second.
+[2017-05-31 23:07:13 +0000] [12751] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:07:15 +0000] [12756] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:07:15 +0000] [12756] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:07:15 +0000] [12756] [ERROR] Retrying in 1 second.
+[2017-05-31 23:07:16 +0000] [12756] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:07:16 +0000] [12756] [ERROR] Retrying in 1 second.
+[2017-05-31 23:07:17 +0000] [12756] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:07:17 +0000] [12756] [ERROR] Retrying in 1 second.
+[2017-05-31 23:07:18 +0000] [12756] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:07:18 +0000] [12756] [ERROR] Retrying in 1 second.
+[2017-05-31 23:07:19 +0000] [12756] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:07:19 +0000] [12756] [ERROR] Retrying in 1 second.
+[2017-05-31 23:07:20 +0000] [12756] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:07:21 +0000] [12761] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:07:21 +0000] [12761] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:07:21 +0000] [12761] [ERROR] Retrying in 1 second.
+[2017-05-31 23:07:22 +0000] [12761] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:07:22 +0000] [12761] [ERROR] Retrying in 1 second.
+[2017-05-31 23:07:23 +0000] [12761] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:07:23 +0000] [12761] [ERROR] Retrying in 1 second.
+[2017-05-31 23:07:24 +0000] [12761] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:07:24 +0000] [12761] [ERROR] Retrying in 1 second.
+[2017-05-31 23:07:25 +0000] [12761] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:07:25 +0000] [12761] [ERROR] Retrying in 1 second.
+[2017-05-31 23:07:26 +0000] [12761] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:07:27 +0000] [12766] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:07:27 +0000] [12766] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:07:27 +0000] [12766] [ERROR] Retrying in 1 second.
+[2017-05-31 23:07:28 +0000] [12766] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:07:28 +0000] [12766] [ERROR] Retrying in 1 second.
+[2017-05-31 23:07:29 +0000] [12766] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:07:29 +0000] [12766] [ERROR] Retrying in 1 second.
+[2017-05-31 23:07:30 +0000] [12766] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:07:30 +0000] [12766] [ERROR] Retrying in 1 second.
+[2017-05-31 23:07:31 +0000] [12766] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:07:31 +0000] [12766] [ERROR] Retrying in 1 second.
+[2017-05-31 23:07:32 +0000] [12766] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:07:33 +0000] [12771] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:07:33 +0000] [12771] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:07:33 +0000] [12771] [ERROR] Retrying in 1 second.
+[2017-05-31 23:07:34 +0000] [12771] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:07:34 +0000] [12771] [ERROR] Retrying in 1 second.
+[2017-05-31 23:07:35 +0000] [12771] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:07:35 +0000] [12771] [ERROR] Retrying in 1 second.
+[2017-05-31 23:07:36 +0000] [12771] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:07:36 +0000] [12771] [ERROR] Retrying in 1 second.
+[2017-05-31 23:07:37 +0000] [12771] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:07:37 +0000] [12771] [ERROR] Retrying in 1 second.
+[2017-05-31 23:07:38 +0000] [12771] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:07:40 +0000] [12785] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:07:40 +0000] [12785] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:07:40 +0000] [12785] [ERROR] Retrying in 1 second.
+[2017-05-31 23:07:41 +0000] [12785] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:07:41 +0000] [12785] [ERROR] Retrying in 1 second.
+[2017-05-31 23:07:42 +0000] [12785] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:07:42 +0000] [12785] [ERROR] Retrying in 1 second.
+[2017-05-31 23:07:43 +0000] [12785] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:07:43 +0000] [12785] [ERROR] Retrying in 1 second.
+[2017-05-31 23:07:44 +0000] [12785] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:07:44 +0000] [12785] [ERROR] Retrying in 1 second.
+[2017-05-31 23:07:45 +0000] [12785] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:07:46 +0000] [12806] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:07:46 +0000] [12806] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:07:46 +0000] [12806] [ERROR] Retrying in 1 second.
+[2017-05-31 23:07:47 +0000] [12806] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:07:47 +0000] [12806] [ERROR] Retrying in 1 second.
+[2017-05-31 23:07:48 +0000] [12806] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:07:48 +0000] [12806] [ERROR] Retrying in 1 second.
+[2017-05-31 23:07:49 +0000] [12806] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:07:49 +0000] [12806] [ERROR] Retrying in 1 second.
+[2017-05-31 23:07:50 +0000] [12806] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:07:50 +0000] [12806] [ERROR] Retrying in 1 second.
+[2017-05-31 23:07:51 +0000] [12806] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:07:52 +0000] [12811] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:07:52 +0000] [12811] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:07:52 +0000] [12811] [ERROR] Retrying in 1 second.
+[2017-05-31 23:07:53 +0000] [12811] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:07:53 +0000] [12811] [ERROR] Retrying in 1 second.
+[2017-05-31 23:07:54 +0000] [12811] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:07:54 +0000] [12811] [ERROR] Retrying in 1 second.
+[2017-05-31 23:07:55 +0000] [12811] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:07:55 +0000] [12811] [ERROR] Retrying in 1 second.
+[2017-05-31 23:07:56 +0000] [12811] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:07:56 +0000] [12811] [ERROR] Retrying in 1 second.
+[2017-05-31 23:07:57 +0000] [12811] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:07:58 +0000] [12823] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:07:58 +0000] [12823] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:07:58 +0000] [12823] [ERROR] Retrying in 1 second.
+[2017-05-31 23:07:59 +0000] [12823] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:07:59 +0000] [12823] [ERROR] Retrying in 1 second.
+[2017-05-31 23:08:00 +0000] [12823] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:08:00 +0000] [12823] [ERROR] Retrying in 1 second.
+[2017-05-31 23:08:01 +0000] [12823] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:08:01 +0000] [12823] [ERROR] Retrying in 1 second.
+[2017-05-31 23:08:02 +0000] [12823] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:08:02 +0000] [12823] [ERROR] Retrying in 1 second.
+[2017-05-31 23:08:03 +0000] [12823] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:08:05 +0000] [12843] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:08:05 +0000] [12843] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:08:05 +0000] [12843] [ERROR] Retrying in 1 second.
+[2017-05-31 23:08:06 +0000] [12843] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:08:06 +0000] [12843] [ERROR] Retrying in 1 second.
+[2017-05-31 23:08:07 +0000] [12843] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:08:07 +0000] [12843] [ERROR] Retrying in 1 second.
+[2017-05-31 23:08:08 +0000] [12843] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:08:08 +0000] [12843] [ERROR] Retrying in 1 second.
+[2017-05-31 23:08:09 +0000] [12843] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:08:09 +0000] [12843] [ERROR] Retrying in 1 second.
+[2017-05-31 23:08:10 +0000] [12843] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:08:11 +0000] [12848] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:08:11 +0000] [12848] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:08:11 +0000] [12848] [ERROR] Retrying in 1 second.
+[2017-05-31 23:08:12 +0000] [12848] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:08:12 +0000] [12848] [ERROR] Retrying in 1 second.
+[2017-05-31 23:08:13 +0000] [12848] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:08:13 +0000] [12848] [ERROR] Retrying in 1 second.
+[2017-05-31 23:08:14 +0000] [12848] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:08:14 +0000] [12848] [ERROR] Retrying in 1 second.
+[2017-05-31 23:08:15 +0000] [12848] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:08:15 +0000] [12848] [ERROR] Retrying in 1 second.
+[2017-05-31 23:08:16 +0000] [12848] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:08:17 +0000] [12853] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:08:17 +0000] [12853] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:08:17 +0000] [12853] [ERROR] Retrying in 1 second.
+[2017-05-31 23:08:18 +0000] [12853] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:08:18 +0000] [12853] [ERROR] Retrying in 1 second.
+[2017-05-31 23:08:19 +0000] [12853] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:08:19 +0000] [12853] [ERROR] Retrying in 1 second.
+[2017-05-31 23:08:20 +0000] [12853] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:08:20 +0000] [12853] [ERROR] Retrying in 1 second.
+[2017-05-31 23:08:21 +0000] [12853] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:08:21 +0000] [12853] [ERROR] Retrying in 1 second.
+[2017-05-31 23:08:22 +0000] [12853] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:08:23 +0000] [12858] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:08:23 +0000] [12858] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:08:23 +0000] [12858] [ERROR] Retrying in 1 second.
+[2017-05-31 23:08:24 +0000] [12858] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:08:24 +0000] [12858] [ERROR] Retrying in 1 second.
+[2017-05-31 23:08:25 +0000] [12858] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:08:25 +0000] [12858] [ERROR] Retrying in 1 second.
+[2017-05-31 23:08:26 +0000] [12858] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:08:26 +0000] [12858] [ERROR] Retrying in 1 second.
+[2017-05-31 23:08:27 +0000] [12858] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:08:27 +0000] [12858] [ERROR] Retrying in 1 second.
+[2017-05-31 23:08:28 +0000] [12858] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:08:30 +0000] [12863] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:08:30 +0000] [12863] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:08:30 +0000] [12863] [ERROR] Retrying in 1 second.
+[2017-05-31 23:08:31 +0000] [12863] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:08:31 +0000] [12863] [ERROR] Retrying in 1 second.
+[2017-05-31 23:08:32 +0000] [12863] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:08:32 +0000] [12863] [ERROR] Retrying in 1 second.
+[2017-05-31 23:08:33 +0000] [12863] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:08:33 +0000] [12863] [ERROR] Retrying in 1 second.
+[2017-05-31 23:08:34 +0000] [12863] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:08:34 +0000] [12863] [ERROR] Retrying in 1 second.
+[2017-05-31 23:08:35 +0000] [12863] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:08:36 +0000] [12868] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:08:36 +0000] [12868] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:08:36 +0000] [12868] [ERROR] Retrying in 1 second.
+[2017-05-31 23:08:37 +0000] [12868] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:08:37 +0000] [12868] [ERROR] Retrying in 1 second.
+[2017-05-31 23:08:38 +0000] [12868] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:08:38 +0000] [12868] [ERROR] Retrying in 1 second.
+[2017-05-31 23:08:39 +0000] [12868] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:08:39 +0000] [12868] [ERROR] Retrying in 1 second.
+[2017-05-31 23:08:40 +0000] [12868] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:08:40 +0000] [12868] [ERROR] Retrying in 1 second.
+[2017-05-31 23:08:41 +0000] [12868] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:08:42 +0000] [12873] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:08:42 +0000] [12873] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:08:42 +0000] [12873] [ERROR] Retrying in 1 second.
+[2017-05-31 23:08:43 +0000] [12873] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:08:43 +0000] [12873] [ERROR] Retrying in 1 second.
+[2017-05-31 23:08:44 +0000] [12873] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:08:44 +0000] [12873] [ERROR] Retrying in 1 second.
+[2017-05-31 23:08:45 +0000] [12873] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:08:45 +0000] [12873] [ERROR] Retrying in 1 second.
+[2017-05-31 23:08:46 +0000] [12873] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:08:46 +0000] [12873] [ERROR] Retrying in 1 second.
+[2017-05-31 23:08:47 +0000] [12873] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:08:48 +0000] [12878] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:08:48 +0000] [12878] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:08:48 +0000] [12878] [ERROR] Retrying in 1 second.
+[2017-05-31 23:08:49 +0000] [12878] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:08:49 +0000] [12878] [ERROR] Retrying in 1 second.
+[2017-05-31 23:08:50 +0000] [12878] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:08:50 +0000] [12878] [ERROR] Retrying in 1 second.
+[2017-05-31 23:08:51 +0000] [12878] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:08:51 +0000] [12878] [ERROR] Retrying in 1 second.
+[2017-05-31 23:08:52 +0000] [12878] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:08:52 +0000] [12878] [ERROR] Retrying in 1 second.
+[2017-05-31 23:08:53 +0000] [12878] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:08:55 +0000] [12883] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:08:55 +0000] [12883] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:08:55 +0000] [12883] [ERROR] Retrying in 1 second.
+[2017-05-31 23:08:56 +0000] [12883] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:08:56 +0000] [12883] [ERROR] Retrying in 1 second.
+[2017-05-31 23:08:57 +0000] [12883] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:08:57 +0000] [12883] [ERROR] Retrying in 1 second.
+[2017-05-31 23:08:58 +0000] [12883] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:08:58 +0000] [12883] [ERROR] Retrying in 1 second.
+[2017-05-31 23:08:59 +0000] [12883] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:08:59 +0000] [12883] [ERROR] Retrying in 1 second.
+[2017-05-31 23:09:00 +0000] [12883] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:09:01 +0000] [12888] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:09:01 +0000] [12888] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:09:01 +0000] [12888] [ERROR] Retrying in 1 second.
+[2017-05-31 23:09:02 +0000] [12888] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:09:02 +0000] [12888] [ERROR] Retrying in 1 second.
+[2017-05-31 23:09:03 +0000] [12888] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:09:03 +0000] [12888] [ERROR] Retrying in 1 second.
+[2017-05-31 23:09:04 +0000] [12888] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:09:04 +0000] [12888] [ERROR] Retrying in 1 second.
+[2017-05-31 23:09:05 +0000] [12888] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:09:05 +0000] [12888] [ERROR] Retrying in 1 second.
+[2017-05-31 23:09:06 +0000] [12888] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:09:07 +0000] [12893] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:09:07 +0000] [12893] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:09:07 +0000] [12893] [ERROR] Retrying in 1 second.
+[2017-05-31 23:09:08 +0000] [12893] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:09:08 +0000] [12893] [ERROR] Retrying in 1 second.
+[2017-05-31 23:09:09 +0000] [12893] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:09:09 +0000] [12893] [ERROR] Retrying in 1 second.
+[2017-05-31 23:09:10 +0000] [12893] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:09:10 +0000] [12893] [ERROR] Retrying in 1 second.
+[2017-05-31 23:09:11 +0000] [12893] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:09:11 +0000] [12893] [ERROR] Retrying in 1 second.
+[2017-05-31 23:09:12 +0000] [12893] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:09:13 +0000] [12898] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:09:13 +0000] [12898] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:09:13 +0000] [12898] [ERROR] Retrying in 1 second.
+[2017-05-31 23:09:14 +0000] [12898] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:09:14 +0000] [12898] [ERROR] Retrying in 1 second.
+[2017-05-31 23:09:15 +0000] [12898] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:09:15 +0000] [12898] [ERROR] Retrying in 1 second.
+[2017-05-31 23:09:16 +0000] [12898] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:09:16 +0000] [12898] [ERROR] Retrying in 1 second.
+[2017-05-31 23:09:17 +0000] [12898] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:09:17 +0000] [12898] [ERROR] Retrying in 1 second.
+[2017-05-31 23:09:18 +0000] [12898] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:09:20 +0000] [12903] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:09:20 +0000] [12903] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:09:20 +0000] [12903] [ERROR] Retrying in 1 second.
+[2017-05-31 23:09:21 +0000] [12903] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:09:21 +0000] [12903] [ERROR] Retrying in 1 second.
+[2017-05-31 23:09:22 +0000] [12903] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:09:22 +0000] [12903] [ERROR] Retrying in 1 second.
+[2017-05-31 23:09:23 +0000] [12903] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:09:23 +0000] [12903] [ERROR] Retrying in 1 second.
+[2017-05-31 23:09:24 +0000] [12903] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:09:24 +0000] [12903] [ERROR] Retrying in 1 second.
+[2017-05-31 23:09:25 +0000] [12903] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:09:26 +0000] [12908] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:09:26 +0000] [12908] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:09:26 +0000] [12908] [ERROR] Retrying in 1 second.
+[2017-05-31 23:09:27 +0000] [12908] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:09:27 +0000] [12908] [ERROR] Retrying in 1 second.
+[2017-05-31 23:09:28 +0000] [12908] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:09:28 +0000] [12908] [ERROR] Retrying in 1 second.
+[2017-05-31 23:09:29 +0000] [12908] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:09:29 +0000] [12908] [ERROR] Retrying in 1 second.
+[2017-05-31 23:09:30 +0000] [12908] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:09:30 +0000] [12908] [ERROR] Retrying in 1 second.
+[2017-05-31 23:09:31 +0000] [12908] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:09:32 +0000] [12913] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:09:32 +0000] [12913] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:09:32 +0000] [12913] [ERROR] Retrying in 1 second.
+[2017-05-31 23:09:33 +0000] [12913] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:09:33 +0000] [12913] [ERROR] Retrying in 1 second.
+[2017-05-31 23:09:34 +0000] [12913] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:09:34 +0000] [12913] [ERROR] Retrying in 1 second.
+[2017-05-31 23:09:35 +0000] [12913] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:09:35 +0000] [12913] [ERROR] Retrying in 1 second.
+[2017-05-31 23:09:36 +0000] [12913] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:09:36 +0000] [12913] [ERROR] Retrying in 1 second.
+[2017-05-31 23:09:37 +0000] [12913] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:09:38 +0000] [12918] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:09:38 +0000] [12918] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:09:38 +0000] [12918] [ERROR] Retrying in 1 second.
+[2017-05-31 23:09:39 +0000] [12918] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:09:39 +0000] [12918] [ERROR] Retrying in 1 second.
+[2017-05-31 23:09:40 +0000] [12918] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:09:40 +0000] [12918] [ERROR] Retrying in 1 second.
+[2017-05-31 23:09:41 +0000] [12918] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:09:41 +0000] [12918] [ERROR] Retrying in 1 second.
+[2017-05-31 23:09:42 +0000] [12918] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:09:42 +0000] [12918] [ERROR] Retrying in 1 second.
+[2017-05-31 23:09:43 +0000] [12918] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:09:45 +0000] [12923] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:09:45 +0000] [12923] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:09:45 +0000] [12923] [ERROR] Retrying in 1 second.
+[2017-05-31 23:09:46 +0000] [12923] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:09:46 +0000] [12923] [ERROR] Retrying in 1 second.
+[2017-05-31 23:09:47 +0000] [12923] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:09:47 +0000] [12923] [ERROR] Retrying in 1 second.
+[2017-05-31 23:09:48 +0000] [12923] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:09:48 +0000] [12923] [ERROR] Retrying in 1 second.
+[2017-05-31 23:09:49 +0000] [12923] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:09:49 +0000] [12923] [ERROR] Retrying in 1 second.
+[2017-05-31 23:09:50 +0000] [12923] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:09:51 +0000] [12928] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:09:51 +0000] [12928] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:09:51 +0000] [12928] [ERROR] Retrying in 1 second.
+[2017-05-31 23:09:52 +0000] [12928] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:09:52 +0000] [12928] [ERROR] Retrying in 1 second.
+[2017-05-31 23:09:53 +0000] [12928] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:09:53 +0000] [12928] [ERROR] Retrying in 1 second.
+[2017-05-31 23:09:54 +0000] [12928] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:09:54 +0000] [12928] [ERROR] Retrying in 1 second.
+[2017-05-31 23:09:55 +0000] [12928] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:09:55 +0000] [12928] [ERROR] Retrying in 1 second.
+[2017-05-31 23:09:56 +0000] [12928] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:09:57 +0000] [12933] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:09:57 +0000] [12933] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:09:57 +0000] [12933] [ERROR] Retrying in 1 second.
+[2017-05-31 23:09:58 +0000] [12933] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:09:58 +0000] [12933] [ERROR] Retrying in 1 second.
+[2017-05-31 23:09:59 +0000] [12933] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:09:59 +0000] [12933] [ERROR] Retrying in 1 second.
+[2017-05-31 23:10:00 +0000] [12933] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:10:00 +0000] [12933] [ERROR] Retrying in 1 second.
+[2017-05-31 23:10:01 +0000] [12933] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:10:01 +0000] [12933] [ERROR] Retrying in 1 second.
+[2017-05-31 23:10:02 +0000] [12933] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:10:03 +0000] [12943] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:10:03 +0000] [12943] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:10:03 +0000] [12943] [ERROR] Retrying in 1 second.
+[2017-05-31 23:10:04 +0000] [12943] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:10:04 +0000] [12943] [ERROR] Retrying in 1 second.
+[2017-05-31 23:10:05 +0000] [12943] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:10:05 +0000] [12943] [ERROR] Retrying in 1 second.
+[2017-05-31 23:10:06 +0000] [12943] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:10:06 +0000] [12943] [ERROR] Retrying in 1 second.
+[2017-05-31 23:10:07 +0000] [12943] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:10:07 +0000] [12943] [ERROR] Retrying in 1 second.
+[2017-05-31 23:10:08 +0000] [12943] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:10:10 +0000] [12948] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:10:10 +0000] [12948] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:10:10 +0000] [12948] [ERROR] Retrying in 1 second.
+[2017-05-31 23:10:11 +0000] [12948] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:10:11 +0000] [12948] [ERROR] Retrying in 1 second.
+[2017-05-31 23:10:12 +0000] [12948] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:10:12 +0000] [12948] [ERROR] Retrying in 1 second.
+[2017-05-31 23:10:13 +0000] [12948] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:10:13 +0000] [12948] [ERROR] Retrying in 1 second.
+[2017-05-31 23:10:14 +0000] [12948] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:10:14 +0000] [12948] [ERROR] Retrying in 1 second.
+[2017-05-31 23:10:15 +0000] [12948] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:10:16 +0000] [12969] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:10:16 +0000] [12969] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:10:16 +0000] [12969] [ERROR] Retrying in 1 second.
+[2017-05-31 23:10:17 +0000] [12969] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:10:17 +0000] [12969] [ERROR] Retrying in 1 second.
+[2017-05-31 23:10:18 +0000] [12969] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:10:18 +0000] [12969] [ERROR] Retrying in 1 second.
+[2017-05-31 23:10:19 +0000] [12969] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:10:19 +0000] [12969] [ERROR] Retrying in 1 second.
+[2017-05-31 23:10:20 +0000] [12969] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:10:20 +0000] [12969] [ERROR] Retrying in 1 second.
+[2017-05-31 23:10:21 +0000] [12969] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:10:22 +0000] [12974] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:10:22 +0000] [12974] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:10:22 +0000] [12974] [ERROR] Retrying in 1 second.
+[2017-05-31 23:10:23 +0000] [12974] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:10:23 +0000] [12974] [ERROR] Retrying in 1 second.
+[2017-05-31 23:10:24 +0000] [12974] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:10:24 +0000] [12974] [ERROR] Retrying in 1 second.
+[2017-05-31 23:10:25 +0000] [12974] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:10:25 +0000] [12974] [ERROR] Retrying in 1 second.
+[2017-05-31 23:10:26 +0000] [12974] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:10:26 +0000] [12974] [ERROR] Retrying in 1 second.
+[2017-05-31 23:10:27 +0000] [12974] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:10:28 +0000] [12979] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:10:28 +0000] [12979] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:10:28 +0000] [12979] [ERROR] Retrying in 1 second.
+[2017-05-31 23:10:29 +0000] [12979] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:10:29 +0000] [12979] [ERROR] Retrying in 1 second.
+[2017-05-31 23:10:30 +0000] [12979] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:10:30 +0000] [12979] [ERROR] Retrying in 1 second.
+[2017-05-31 23:10:31 +0000] [12979] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:10:31 +0000] [12979] [ERROR] Retrying in 1 second.
+[2017-05-31 23:10:32 +0000] [12979] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:10:32 +0000] [12979] [ERROR] Retrying in 1 second.
+[2017-05-31 23:10:33 +0000] [12979] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:10:35 +0000] [12993] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:10:35 +0000] [12993] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:10:35 +0000] [12993] [ERROR] Retrying in 1 second.
+[2017-05-31 23:10:36 +0000] [12993] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:10:36 +0000] [12993] [ERROR] Retrying in 1 second.
+[2017-05-31 23:10:37 +0000] [12993] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:10:37 +0000] [12993] [ERROR] Retrying in 1 second.
+[2017-05-31 23:10:38 +0000] [12993] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:10:38 +0000] [12993] [ERROR] Retrying in 1 second.
+[2017-05-31 23:10:39 +0000] [12993] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:10:39 +0000] [12993] [ERROR] Retrying in 1 second.
+[2017-05-31 23:10:40 +0000] [12993] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:10:41 +0000] [12998] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:10:41 +0000] [12998] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:10:41 +0000] [12998] [ERROR] Retrying in 1 second.
+[2017-05-31 23:10:42 +0000] [12998] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:10:42 +0000] [12998] [ERROR] Retrying in 1 second.
+[2017-05-31 23:10:43 +0000] [12998] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:10:43 +0000] [12998] [ERROR] Retrying in 1 second.
+[2017-05-31 23:10:44 +0000] [12998] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:10:44 +0000] [12998] [ERROR] Retrying in 1 second.
+[2017-05-31 23:10:45 +0000] [12998] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:10:45 +0000] [12998] [ERROR] Retrying in 1 second.
+[2017-05-31 23:10:46 +0000] [12998] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:10:47 +0000] [13003] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:10:47 +0000] [13003] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:10:47 +0000] [13003] [ERROR] Retrying in 1 second.
+[2017-05-31 23:10:48 +0000] [13003] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:10:48 +0000] [13003] [ERROR] Retrying in 1 second.
+[2017-05-31 23:10:49 +0000] [13003] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:10:49 +0000] [13003] [ERROR] Retrying in 1 second.
+[2017-05-31 23:10:50 +0000] [13003] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:10:50 +0000] [13003] [ERROR] Retrying in 1 second.
+[2017-05-31 23:10:51 +0000] [13003] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:10:51 +0000] [13003] [ERROR] Retrying in 1 second.
+[2017-05-31 23:10:52 +0000] [13003] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:10:53 +0000] [13008] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:10:53 +0000] [13008] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:10:53 +0000] [13008] [ERROR] Retrying in 1 second.
+[2017-05-31 23:10:54 +0000] [13008] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:10:54 +0000] [13008] [ERROR] Retrying in 1 second.
+[2017-05-31 23:10:55 +0000] [13008] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:10:55 +0000] [13008] [ERROR] Retrying in 1 second.
+[2017-05-31 23:10:56 +0000] [13008] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:10:56 +0000] [13008] [ERROR] Retrying in 1 second.
+[2017-05-31 23:10:57 +0000] [13008] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:10:57 +0000] [13008] [ERROR] Retrying in 1 second.
+[2017-05-31 23:10:58 +0000] [13008] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:11:00 +0000] [13014] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:11:00 +0000] [13014] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:11:00 +0000] [13014] [ERROR] Retrying in 1 second.
+[2017-05-31 23:11:01 +0000] [13014] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:11:01 +0000] [13014] [ERROR] Retrying in 1 second.
+[2017-05-31 23:11:02 +0000] [13014] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:11:02 +0000] [13014] [ERROR] Retrying in 1 second.
+[2017-05-31 23:11:03 +0000] [13014] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:11:03 +0000] [13014] [ERROR] Retrying in 1 second.
+[2017-05-31 23:11:04 +0000] [13014] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:11:04 +0000] [13014] [ERROR] Retrying in 1 second.
+[2017-05-31 23:11:05 +0000] [13014] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:11:23 +0000] [13044] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:11:23 +0000] [13044] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:11:23 +0000] [13044] [ERROR] Retrying in 1 second.
+[2017-05-31 23:11:24 +0000] [13044] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:11:24 +0000] [13044] [ERROR] Retrying in 1 second.
+[2017-05-31 23:11:25 +0000] [13044] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:11:25 +0000] [13044] [ERROR] Retrying in 1 second.
+[2017-05-31 23:11:26 +0000] [13044] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:11:26 +0000] [13044] [ERROR] Retrying in 1 second.
+[2017-05-31 23:11:27 +0000] [13044] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:11:27 +0000] [13044] [ERROR] Retrying in 1 second.
+[2017-05-31 23:11:28 +0000] [13044] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:11:30 +0000] [13058] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:11:30 +0000] [13058] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:11:30 +0000] [13058] [ERROR] Retrying in 1 second.
+[2017-05-31 23:11:31 +0000] [13058] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:11:31 +0000] [13058] [ERROR] Retrying in 1 second.
+[2017-05-31 23:11:32 +0000] [13058] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:11:32 +0000] [13058] [ERROR] Retrying in 1 second.
+[2017-05-31 23:11:33 +0000] [13058] [INFO] Listening at: http://0.0.0.0:80 (13058)
+[2017-05-31 23:11:33 +0000] [13058] [INFO] Using worker: sync
+[2017-05-31 23:11:33 +0000] [13063] [INFO] Booting worker with pid: 13063
+[2017-05-31 23:11:33 +0000] [13068] [INFO] Booting worker with pid: 13068
+[2017-05-31 23:11:33 +0000] [13069] [INFO] Booting worker with pid: 13069
+[2017-05-31 23:11:33 +0000] [13071] [INFO] Booting worker with pid: 13071
+[2017-05-31 23:11:49 +0000] [13100] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:11:49 +0000] [13100] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:11:49 +0000] [13100] [ERROR] Retrying in 1 second.
+[2017-05-31 23:11:50 +0000] [13100] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:11:50 +0000] [13100] [ERROR] Retrying in 1 second.
+[2017-05-31 23:11:51 +0000] [13100] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:11:51 +0000] [13100] [ERROR] Retrying in 1 second.
+[2017-05-31 23:11:52 +0000] [13100] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:11:52 +0000] [13100] [ERROR] Retrying in 1 second.
+[2017-05-31 23:11:53 +0000] [13100] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:11:53 +0000] [13100] [ERROR] Retrying in 1 second.
+[2017-05-31 23:11:54 +0000] [13100] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:11:55 +0000] [13120] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:11:55 +0000] [13120] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:11:55 +0000] [13120] [ERROR] Retrying in 1 second.
+[2017-05-31 23:11:56 +0000] [13120] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:11:56 +0000] [13120] [ERROR] Retrying in 1 second.
+[2017-05-31 23:11:57 +0000] [13120] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:11:57 +0000] [13120] [ERROR] Retrying in 1 second.
+[2017-05-31 23:11:58 +0000] [13120] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:11:58 +0000] [13120] [ERROR] Retrying in 1 second.
+[2017-05-31 23:11:59 +0000] [13120] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:11:59 +0000] [13120] [ERROR] Retrying in 1 second.
+[2017-05-31 23:12:00 +0000] [13120] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2017-05-31 23:12:01 +0000] [13125] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:12:01 +0000] [13125] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:12:01 +0000] [13125] [ERROR] Retrying in 1 second.
+[2017-05-31 23:12:02 +0000] [13125] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:12:02 +0000] [13125] [ERROR] Retrying in 1 second.
+[2017-05-31 23:12:03 +0000] [13125] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2017-05-31 23:12:03 +0000] [13125] [ERROR] Retrying in 1 second.
+[2017-05-31 23:12:04 +0000] [13125] [INFO] Listening at: http://0.0.0.0:80 (13125)
+[2017-05-31 23:12:04 +0000] [13125] [INFO] Using worker: sync
+[2017-05-31 23:12:04 +0000] [13130] [INFO] Booting worker with pid: 13130
+[2017-05-31 23:12:05 +0000] [13131] [INFO] Booting worker with pid: 13131
+[2017-05-31 23:12:05 +0000] [13136] [INFO] Booting worker with pid: 13136
+[2017-05-31 23:12:05 +0000] [13141] [INFO] Booting worker with pid: 13141
+[2017-05-31 23:15:57 +0000] [13261] [INFO] Starting gunicorn 19.6.0
+[2017-05-31 23:15:57 +0000] [13261] [INFO] Listening at: http://0.0.0.0:80 (13261)
+[2017-05-31 23:15:57 +0000] [13261] [INFO] Using worker: sync
+[2017-05-31 23:15:57 +0000] [13266] [INFO] Booting worker with pid: 13266
+[2017-05-31 23:15:57 +0000] [13267] [INFO] Booting worker with pid: 13267
+[2017-05-31 23:15:57 +0000] [13268] [INFO] Booting worker with pid: 13268
+[2017-05-31 23:15:57 +0000] [13270] [INFO] Booting worker with pid: 13270
+[2017-06-09 23:04:25 +0000] [13261] [CRITICAL] WORKER TIMEOUT (pid:13270)
+[2017-06-09 23:04:25 +0000] [13270] [INFO] Worker exiting (pid: 13270)
+[2017-06-09 23:04:25 +0000] [29744] [INFO] Booting worker with pid: 29744
+[2017-06-10 01:25:40 +0000] [13261] [CRITICAL] WORKER TIMEOUT (pid:29744)
+[2017-06-10 01:25:40 +0000] [29744] [INFO] Worker exiting (pid: 29744)
+[2017-06-10 01:25:40 +0000] [29963] [INFO] Booting worker with pid: 29963
+[2017-06-11 01:34:15 +0000] [13261] [CRITICAL] WORKER TIMEOUT (pid:13266)
+[2017-06-11 01:34:15 +0000] [13266] [INFO] Worker exiting (pid: 13266)
+[2017-06-11 01:34:15 +0000] [32075] [INFO] Booting worker with pid: 32075
+[2017-06-12 01:43:12 +0000] [13261] [CRITICAL] WORKER TIMEOUT (pid:13268)
+[2017-06-12 01:43:12 +0000] [13268] [INFO] Worker exiting (pid: 13268)
+[2017-06-12 01:43:12 +0000] [2474] [INFO] Booting worker with pid: 2474
+[2017-06-14 03:37:20 +0000] [13261] [CRITICAL] WORKER TIMEOUT (pid:32075)
+[2017-06-14 03:37:20 +0000] [32075] [INFO] Worker exiting (pid: 32075)
+[2017-06-14 03:37:20 +0000] [6574] [INFO] Booting worker with pid: 6574
+[2017-06-14 11:11:55 +0000] [13261] [CRITICAL] WORKER TIMEOUT (pid:29963)
+[2017-06-14 11:11:55 +0000] [29963] [INFO] Worker exiting (pid: 29963)
+[2017-06-14 11:11:55 +0000] [7324] [INFO] Booting worker with pid: 7324
+[2017-06-15 11:57:17 +0000] [13261] [CRITICAL] WORKER TIMEOUT (pid:13267)
+[2017-06-15 11:57:17 +0000] [13267] [INFO] Worker exiting (pid: 13267)
+[2017-06-15 11:57:17 +0000] [9398] [INFO] Booting worker with pid: 9398
+[2017-06-15 11:57:27 +0000] [13261] [CRITICAL] WORKER TIMEOUT (pid:2474)
+[2017-06-15 11:57:27 +0000] [2474] [INFO] Worker exiting (pid: 2474)
+[2017-06-15 11:57:27 +0000] [9403] [INFO] Booting worker with pid: 9403
+[2017-06-15 11:57:36 +0000] [13261] [CRITICAL] WORKER TIMEOUT (pid:7324)
+[2017-06-15 11:57:36 +0000] [7324] [INFO] Worker exiting (pid: 7324)
+[2017-06-15 11:57:36 +0000] [9408] [INFO] Booting worker with pid: 9408
+[2017-06-15 11:57:39 +0000] [13261] [CRITICAL] WORKER TIMEOUT (pid:6574)
+[2017-06-15 11:57:39 +0000] [6574] [INFO] Worker exiting (pid: 6574)
+[2017-06-15 11:57:39 +0000] [9413] [INFO] Booting worker with pid: 9413
+[2017-06-15 11:57:50 +0000] [13261] [CRITICAL] WORKER TIMEOUT (pid:9398)
+[2017-06-15 11:57:50 +0000] [9398] [INFO] Worker exiting (pid: 9398)
+[2017-06-15 11:57:51 +0000] [9418] [INFO] Booting worker with pid: 9418
+[2017-06-15 11:57:59 +0000] [13261] [CRITICAL] WORKER TIMEOUT (pid:9403)
+[2017-06-15 11:57:59 +0000] [9403] [INFO] Worker exiting (pid: 9403)
+[2017-06-15 11:57:59 +0000] [9423] [INFO] Booting worker with pid: 9423
+[2017-06-15 11:58:11 +0000] [13261] [CRITICAL] WORKER TIMEOUT (pid:9408)
+[2017-06-15 11:58:11 +0000] [9408] [INFO] Worker exiting (pid: 9408)
+[2017-06-15 11:58:11 +0000] [9428] [INFO] Booting worker with pid: 9428
+[2017-06-15 11:58:14 +0000] [13261] [CRITICAL] WORKER TIMEOUT (pid:9413)
+[2017-06-15 11:58:14 +0000] [9413] [INFO] Worker exiting (pid: 9413)
+[2017-06-15 11:58:14 +0000] [9433] [INFO] Booting worker with pid: 9433
+[2017-06-24 17:38:04 +0000] [13261] [CRITICAL] WORKER TIMEOUT (pid:9418)
+[2017-06-24 17:38:04 +0000] [9418] [INFO] Worker exiting (pid: 9418)
+[2017-06-24 17:38:04 +0000] [25939] [INFO] Booting worker with pid: 25939
+[2017-07-19 01:25:06 +0000] [13261] [CRITICAL] WORKER TIMEOUT (pid:9433)
+[2017-07-19 01:25:06 +0000] [9433] [INFO] Worker exiting (pid: 9433)
+[2017-07-19 01:25:06 +0000] [8635] [INFO] Booting worker with pid: 8635
+[2017-07-21 00:36:57 +0000] [13808] [INFO] Booting worker with pid: 13808
+[2017-08-24 14:04:20 +0000] [16272] [INFO] Starting gunicorn 19.6.0
+[2017-08-24 14:04:20 +0000] [16272] [INFO] Listening at: http://0.0.0.0:80 (16272)
+[2017-08-24 14:04:20 +0000] [16272] [INFO] Using worker: sync
+[2017-08-24 14:04:20 +0000] [16277] [INFO] Booting worker with pid: 16277
+[2017-08-24 14:04:20 +0000] [16278] [INFO] Booting worker with pid: 16278
+[2017-08-24 14:04:20 +0000] [16279] [INFO] Booting worker with pid: 16279
+[2017-08-24 14:04:20 +0000] [16280] [INFO] Booting worker with pid: 16280
+[2017-08-25 00:34:56 +0000] [16272] [INFO] Handling signal: hup
+[2017-08-25 00:34:56 +0000] [16272] [INFO] Hang up: Master
+[2017-08-25 00:34:56 +0000] [16272] [INFO] Handling signal: term
+[2017-08-25 11:19:11 +0000] [2106] [INFO] Starting gunicorn 19.6.0
+[2017-08-25 11:19:11 +0000] [2106] [INFO] Listening at: http://0.0.0.0:80 (2106)
+[2017-08-25 11:19:11 +0000] [2106] [INFO] Using worker: sync
+[2017-08-25 11:19:11 +0000] [2111] [INFO] Booting worker with pid: 2111
+[2017-08-25 11:19:11 +0000] [2112] [INFO] Booting worker with pid: 2112
+[2017-08-25 11:19:11 +0000] [2113] [INFO] Booting worker with pid: 2113
+[2017-08-25 11:19:11 +0000] [2114] [INFO] Booting worker with pid: 2114
+[2017-08-25 16:42:50 +0000] [2106] [CRITICAL] WORKER TIMEOUT (pid:2112)
+[2017-08-25 16:42:50 +0000] [2112] [INFO] Worker exiting (pid: 2112)
+[2017-08-25 16:42:51 +0000] [2485] [INFO] Booting worker with pid: 2485
+[2017-08-31 17:43:55 +0000] [2106] [CRITICAL] WORKER TIMEOUT (pid:2114)
+[2017-08-31 17:43:55 +0000] [2114] [INFO] Worker exiting (pid: 2114)
+[2017-08-31 17:43:55 +0000] [17231] [INFO] Booting worker with pid: 17231
